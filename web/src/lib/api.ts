@@ -50,3 +50,10 @@ export const getTopic = (f: Fetch, area: string, slug: string) =>
 	get<TopicDetail>(f, `/topics/${encodeURIComponent(area)}/${encodeURIComponent(slug)}`);
 export const searchTopics = (f: Fetch, q: string) =>
 	get<TopicSummary[]>(f, `/search?q=${encodeURIComponent(q)}`);
+
+/** Minúsculas y sin diacríticos, igual que la búsqueda del servidor. */
+export const normalize = (s: string) =>
+	s
+		.toLowerCase()
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '');

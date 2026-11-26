@@ -1,9 +1,19 @@
 <script lang="ts">
 	import SearchBox from '#lib/components/SearchBox.svelte';
+	import { progress } from '#lib/progress.svelte.ts';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
 	let total = $derived(data.areas.reduce((n, a) => n + a.topic_count, 0));
+	let branches = $derived(data.areas.reduce((n, a) => n + a.branches.length, 0));
+
+	const MAX_BRANCHES = 6;
+	const FEATURES = [
+		['Teoría clara', 'Cada tema arranca de la idea y llega a la fórmula, sin saltos.'],
+		['Ejemplos resueltos', 'Problemas tipo de parcial y final, paso a paso.'],
+		['Figuras y fórmulas', 'Diagramas propios y notación matemática bien escrita.'],
+		['Tu avance', 'Marcá los temas leídos y retomá donde dejaste.']
+	];
 </script>
 
 <svelte:head>
@@ -22,7 +32,20 @@
 		fórmulas, figuras y ejemplos resueltos para cualquier carrera.
 	</p>
 	<div class="search"><SearchBox large /></div>
-	<p class="stats">{data.areas.length} áreas · {total} temas</p>
+	<dl class="stats">
+		<div><dt>{data.areas.length}</dt><dd>áreas</dd></div>
+		<div><dt>{branches}</dt><dd>ramas</dd></div>
+		<div><dt>{total}</dt><dd>temas</dd></div>
+	</dl>
+</section>
+
+<section class="container features">
+	{#each FEATURES as [title, text] (title)}
+		<div>
+			<h3>{title}</h3>
+			<p>{text}</p>
+		</div>
+	{/each}
 </section>
 
 <section class="container">
@@ -34,11 +57,22 @@
 				<h3>{area.title}</h3>
 				<p>{area.description}</p>
 				<ul>
-					{#each area.branches as branch (branch)}
+					{#each area.branches.slice(0, MAX_BRANCHES) as branch (branch)}
 						<li class="chip">{branch}</li>
 					{/each}
+					{#if area.branches.length > MAX_BRANCHES}
+						<li class="chip more">+{area.branches.length - MAX_BRANCHES} ramas</li>
+					{/if}
 				</ul>
-				<span class="count">{area.topic_count} temas →</span>
+				{#if progress.count(area.slug)}
+					<div class="bar" aria-hidden="true">
+						<div style:width="{(100 * progress.count(area.slug)) / area.topic_count}%"></div>
+					</div>
+				{/if}
+				<span class="count">
+					{#if progress.count(area.slug)}{progress.count(area.slug)} de {/if}{area.topic_count} temas{#if progress.count(area.slug)}
+						leídos{/if} →
+				</span>
 			</a>
 		{/each}
 	</div>
@@ -77,9 +111,54 @@
 		margin: 0 auto;
 	}
 	.stats {
-		margin: 1rem 0 0;
+		display: flex;
+		justify-content: center;
+		gap: 2.5rem;
+		margin: 2rem 0 0;
+	}
+	dt {
+		font-size: 1.8rem;
+		font-weight: 800;
+		line-height: 1.1;
+	}
+	dd {
+		margin: 0;
 		color: var(--text-faint);
 		font-size: 0.85rem;
+	}
+	.features {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 1rem;
+		margin-bottom: 3rem;
+	}
+	.features div {
+		padding: 1rem 1.2rem;
+		border: 1px solid var(--border);
+		border-radius: var(--radius);
+	}
+	.features h3 {
+		margin: 0 0 0.3rem;
+		font-size: 1rem;
+	}
+	.features p {
+		margin: 0;
+		color: var(--text-dim);
+		font-size: 0.9rem;
+	}
+	.more {
+		border-style: dashed;
+		color: var(--area);
+	}
+	.bar {
+		height: 4px;
+		overflow: hidden;
+		background: var(--border);
+		border-radius: 999px;
+	}
+	.bar div {
+		height: 100%;
+		background: var(--area);
 	}
 	h2 {
 		margin: 0 0 1.2rem;

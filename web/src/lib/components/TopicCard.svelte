@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { TopicSummary } from '#lib/api.ts';
+	import { progress } from '#lib/progress.svelte.ts';
 
 	let { topic, areaTitle = '' }: { topic: TopicSummary; areaTitle?: string } = $props();
 </script>
@@ -7,7 +8,9 @@
 <a class="card" href="/{topic.area}/{encodeURIComponent(topic.slug)}">
 	<div class="meta">
 		<span>{areaTitle ? `${areaTitle} · ${topic.branch}` : topic.branch}</span>
-		<span>{topic.minutes} min</span>
+		<span>
+			{#if progress.has(topic.area, topic.slug)}<b>✓ Leído · </b>{/if}{topic.minutes} min
+		</span>
 	</div>
 	<h3>{topic.title}</h3>
 	<p>{topic.summary}</p>
@@ -42,6 +45,10 @@
 		gap: 1rem;
 		color: var(--text-faint);
 		font-size: 0.75rem;
+	}
+	b {
+		color: #4ade80;
+		font-weight: 600;
 	}
 	h3 {
 		margin: 0;
