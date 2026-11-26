@@ -1,0 +1,58 @@
+# Áreas de BigBrain. El orden de este archivo es el orden en la web;
+# `branches` fija el orden de las ramas dentro de cada área.
+
+[[area]]
+slug = "matematicas"
+title = "Matemáticas"
+description = "Del álgebra al cálculo, el álgebra lineal, las ecuaciones diferenciales y la probabilidad: el lenguaje de toda carrera científica."
+symbol = "∑"
+color = "#8b7bff"
+branches = ["Álgebra", "Geometría y trigonometría", "Cálculo", "Álgebra lineal", "Ecuaciones diferenciales", "Probabilidad y estadística", "Matemática discreta"]
+
+[[area]]
+slug = "fisica"
+title = "Física"
+description = "Cómo se mueve, se calienta, se carga y vibra el mundo: mecánica, termodinámica, electromagnetismo, ondas y física moderna."
+symbol = "Φ"
+color = "#38bdf8"
+branches = ["Mecánica", "Termodinámica", "Electromagnetismo", "Ondas y óptica", "Física moderna"]
+
+[[area]]
+slug = "quimica"
+title = "Química"
+description = "Átomos, enlaces y reacciones: de la estructura de la materia a la estequiometría, el equilibrio ácido-base y la química orgánica."
+symbol = "pH"
+color = "#34d399"
+branches = ["Estructura de la materia", "Enlace químico", "Reacciones y estequiometría", "Equilibrio químico", "Química orgánica"]
+
+[[area]]
+slug = "electromecanica"
+title = "Ingeniería electromecánica"
+description = "Circuitos, máquinas eléctricas, resistencia de materiales y control automático para diseñar y mantener sistemas reales."
+symbol = "Ω"
+color = "#fbbf24"
+branches = ["Circuitos eléctricos", "Máquinas eléctricas", "Mecánica y materiales", "Control y automatización"]
+
+[[area]]
+slug = "software"
+title = "Software"
+description = "Programar bien: fundamentos, algoritmos y estructuras de datos, control de versiones y lenguajes modernos como Rust."
+symbol = "{ }"
+color = "#a3e635"
+branches = ["Fundamentos de programación", "Algoritmos y estructuras de datos", "Ingeniería de software", "Rust"]
+
+[[area]]
+slug = "informatica"
+title = "Informática"
+description = "Qué pasa debajo del código: sistemas numéricos, lógica digital, arquitectura, sistemas operativos, redes y bases de datos."
+symbol = "01"
+color = "#f472b6"
+branches = ["Sistemas numéricos y lógica digital", "Arquitectura de computadoras", "Sistemas operativos", "Redes", "Bases de datos"]
+
+[[area]]
+slug = "idiomas"
+title = "Idiomas"
+description = "Inglés, portugués y francés para estudiar y trabajar, con las técnicas que realmente funcionan para aprender una lengua."
+symbol = "Aa"
+color = "#fb923c"
+branches = ["Técnicas de estudio", "Inglés", "Portugués", "Francés"]

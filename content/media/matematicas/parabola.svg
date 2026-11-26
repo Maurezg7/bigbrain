@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="40.0" y1="150.0" x2="600.0" y2="150.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="260.0" y1="340.0" x2="260.0" y2="20.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="596.0" y="170.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">x</text>
+<text x="246.0" y="26.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">y</text>
+<line x1="330.0" y1="30.0" x2="330.0" y2="335.0" stroke="#9aa1b8" stroke-width="1.5" stroke-dasharray="6 6"/>
+<path d="M148.0 45.1 L151.0 53.6 L154.1 62.0 L157.1 70.2 L160.1 78.2 L163.2 86.1 L166.2 93.9 L169.2 101.6 L172.3 109.1 L175.3 116.4 L178.3 123.6 L181.4 130.7 L184.4 137.6 L187.4 144.4 L190.5 151.0 L193.5 157.5 L196.5 163.9 L199.6 170.1 L202.6 176.1 L205.6 182.1 L208.7 187.8 L211.7 193.5 L214.7 199.0 L217.8 204.3 L220.8 209.5 L223.8 214.6 L226.9 219.5 L229.9 224.3 L232.9 228.9 L236.0 233.4 L239.0 237.8 L242.0 242.0 L245.1 246.1 L248.1 250.0 L251.1 253.8 L254.2 257.4 L257.2 260.9 L260.2 264.3 L263.3 267.5 L266.3 270.5 L269.3 273.5 L272.4 276.2 L275.4 278.9 L278.4 281.4 L281.5 283.7 L284.5 285.9 L287.5 288.0 L290.6 289.9 L293.6 291.7 L296.6 293.4 L299.7 294.9 L302.7 296.2 L305.7 297.4 L308.8 298.5 L311.8 299.4 L314.8 300.2 L317.9 300.9 L320.9 301.4 L323.9 301.7 L327.0 301.9 L330.0 302.0 L333.0 301.9 L336.1 301.7 L339.1 301.4 L342.1 300.9 L345.2 300.2 L348.2 299.4 L351.2 298.5 L354.3 297.4 L357.3 296.2 L360.3 294.9 L363.4 293.4 L366.4 291.7 L369.4 289.9 L372.5 288.0 L375.5 285.9 L378.5 283.7 L381.6 281.4 L384.6 278.9 L387.6 276.2 L390.7 273.5 L393.7 270.5 L396.7 267.5 L399.8 264.3 L402.8 260.9 L405.8 257.4 L408.9 253.8 L411.9 250.0 L414.9 246.1 L418.0 242.0 L421.0 237.8 L424.0 233.4 L427.1 228.9 L430.1 224.3 L433.1 219.5 L436.2 214.6 L439.2 209.5 L442.2 204.3 L445.3 199.0 L448.3 193.5 L451.3 187.8 L454.4 182.1 L457.4 176.1 L460.4 170.1 L463.5 163.9 L466.5 157.5 L469.5 151.0 L472.6 144.4 L475.6 137.6 L478.6 130.7 L481.7 123.6 L484.7 116.4 L487.7 109.1 L490.8 101.6 L493.8 93.9 L496.8 86.1 L499.9 78.2 L502.9 70.2 L505.9 62.0 L509.0 53.6 L512.0 45.1" stroke="#8b7bff" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="190.0" cy="150.0" r="5" fill="#3ddbd9"/>
+<circle cx="470.0" cy="150.0" r="5" fill="#3ddbd9"/>
+<circle cx="330.0" cy="302.0" r="5" fill="#fb923c"/>
+<text x="178.0" y="174.0" fill="#3ddbd9" font-size="14" text-anchor="end" font-weight="400">x₁ = −1</text>
+<text x="482.0" y="174.0" fill="#3ddbd9" font-size="14" text-anchor="start" font-weight="400">x₂ = 3</text>
+<text x="344.0" y="324.0" fill="#fb923c" font-size="14" text-anchor="start" font-weight="400">vértice (1, −4)</text>
+<text x="338.0" y="44.0" fill="#9aa1b8" font-size="13" text-anchor="start" font-weight="400">eje de simetría</text>
+<text x="610.0" y="250.0" fill="#8b7bff" font-size="15" text-anchor="end" font-weight="600">y = x² − 2x − 3</text>
+</svg>

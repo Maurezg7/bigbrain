@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="130.0" y1="185.0" x2="520.0" y2="185.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="320.0" y1="345.0" x2="320.0" y2="20.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="516.0" y="205.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">x</text>
+<text x="306.0" y="26.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">y</text>
+<circle cx="320.0" cy="185.0" r="135" stroke="#8b7bff" stroke-width="2.5" fill="none" fill-opacity="1"/>
+<line x1="320.0" y1="185.0" x2="406.8" y2="81.6" stroke="#e6e8f0" stroke-width="2.5"/>
+<line x1="406.8" y1="81.6" x2="406.8" y2="185.0" stroke="#fb923c" stroke-width="3"/>
+<line x1="320.0" y1="185.0" x2="406.8" y2="185.0" stroke="#3ddbd9" stroke-width="3"/>
+<path d="M358 185 A38 38 0 0 0 344.4 155.9" stroke="#fbbf24" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="406.8" cy="81.6" r="5" fill="#e6e8f0"/>
+<text x="418.8" y="71.6" fill="#e6e8f0" font-size="15" text-anchor="start" font-weight="600">P (cos θ, sen θ)</text>
+<text x="372.0" y="169.0" fill="#fbbf24" font-size="16" text-anchor="middle" font-weight="400" font-style="italic">θ</text>
+<text x="416.8" y="138.3" fill="#fb923c" font-size="15" text-anchor="start" font-weight="400">sen θ</text>
+<text x="363.4" y="207.0" fill="#3ddbd9" font-size="15" text-anchor="middle" font-weight="400">cos θ</text>
+<text x="345.4" y="125.3" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="400">1</text>
+<text x="463.0" y="205.0" fill="#9aa1b8" font-size="13" text-anchor="start" font-weight="400">1</text>
+<text x="177.0" y="205.0" fill="#9aa1b8" font-size="13" text-anchor="end" font-weight="400">−1</text>
+</svg>

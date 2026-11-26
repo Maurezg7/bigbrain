@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="af472b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#f472b6"/></marker>
+<marker id="a3ddbd9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#3ddbd9"/></marker>
+<marker id="ae6e8f0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e6e8f0"/></marker>
+<rect x="20" y="90" width="128" height="70" rx="8" stroke="#fb923c" stroke-width="2" fill="#fb923c" fill-opacity="0.14"/>
+<text x="84.0" y="120.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Directorio</text>
+<text x="84.0" y="140.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">de trabajo</text>
+<rect x="177" y="90" width="128" height="70" rx="8" stroke="#fbbf24" stroke-width="2" fill="#fbbf24" fill-opacity="0.14"/>
+<text x="241.0" y="120.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Área de</text>
+<text x="241.0" y="140.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">preparación</text>
+<rect x="334" y="90" width="128" height="70" rx="8" stroke="#4ade80" stroke-width="2" fill="#4ade80" fill-opacity="0.14"/>
+<text x="398.0" y="120.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Repositorio</text>
+<text x="398.0" y="140.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">local (.git)</text>
+<rect x="491" y="90" width="128" height="70" rx="8" stroke="#3ddbd9" stroke-width="2" fill="#3ddbd9" fill-opacity="0.14"/>
+<text x="555.0" y="120.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Repositorio</text>
+<text x="555.0" y="140.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">remoto</text>
+<line x1="150.0" y1="110.0" x2="175.0" y2="110.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="162.0" y="78.0" fill="#e6e8f0" font-size="12" text-anchor="middle" font-weight="600">git add</text>
+<line x1="307.0" y1="110.0" x2="332.0" y2="110.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="319.0" y="78.0" fill="#e6e8f0" font-size="12" text-anchor="middle" font-weight="600">git commit</text>
+<line x1="464.0" y1="110.0" x2="489.0" y2="110.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="476.0" y="78.0" fill="#e6e8f0" font-size="12" text-anchor="middle" font-weight="600">git push</text>
+<path d="M555 172 Q400 235 240 172" stroke="#3ddbd9" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5" marker-end="url(#a3ddbd9)"/>
+<text x="398.0" y="232.0" fill="#3ddbd9" font-size="13" text-anchor="middle" font-weight="600">git pull</text>
+<path d="M398 82 Q240 20 84 82" stroke="#f472b6" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5" marker-end="url(#af472b6)"/>
+<text x="240.0" y="36.0" fill="#f472b6" font-size="12" text-anchor="middle" font-weight="600">git restore / checkout</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a4ade80" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#4ade80"/></marker>
+<text x="150.0" y="30.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400">Pila (stack)</text>
+<text x="480.0" y="30.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400">Heap</text>
+<rect x="60" y="60" width="180" height="74" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.12"/>
+<text x="76.0" y="84.0" fill="#9aa1b8" font-size="16" text-anchor="start" font-weight="700">a</text>
+<text x="76.0" y="106.0" fill="#9aa1b8" font-size="13" text-anchor="start" font-weight="400">ptr · len: 4 · cap: 4</text>
+<text x="76.0" y="124.0" fill="#ef4444" font-size="12" text-anchor="start" font-weight="400">movida: ya no es válida</text>
+<rect x="60" y="170" width="180" height="74" rx="8" stroke="#4ade80" stroke-width="2" fill="#4ade80" fill-opacity="0.12"/>
+<text x="76.0" y="194.0" fill="#4ade80" font-size="16" text-anchor="start" font-weight="700">b</text>
+<text x="76.0" y="216.0" fill="#e6e8f0" font-size="13" text-anchor="start" font-weight="400">ptr · len: 4 · cap: 4</text>
+<rect x="400" y="120" width="40" height="44" rx="4" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.18"/>
+<text x="420.0" y="149.0" fill="#e6e8f0" font-size="17" text-anchor="middle" font-weight="600">h</text>
+<rect x="442" y="120" width="40" height="44" rx="4" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.18"/>
+<text x="462.0" y="149.0" fill="#e6e8f0" font-size="17" text-anchor="middle" font-weight="600">o</text>
+<rect x="484" y="120" width="40" height="44" rx="4" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.18"/>
+<text x="504.0" y="149.0" fill="#e6e8f0" font-size="17" text-anchor="middle" font-weight="600">l</text>
+<rect x="526" y="120" width="40" height="44" rx="4" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.18"/>
+<text x="546.0" y="149.0" fill="#e6e8f0" font-size="17" text-anchor="middle" font-weight="600">a</text>
+<path d="M240 96 C320 96 340 130 396 136" stroke="#ef4444" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="318.0" y="100.0" fill="#ef4444" font-size="20" text-anchor="middle" font-weight="700">✕</text>
+<path d="M240 206 C320 206 340 160 396 150" stroke="#4ade80" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a4ade80)"/>
+<text x="320.0" y="280.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">let b = a;  →  un solo dueño: b</text>
+</svg>
