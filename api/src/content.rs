@@ -240,6 +240,7 @@ fn build_topic(area: &str, slug: String, meta: FrontMatter, body: &str) -> Topic
                     }
                     headings.push(Heading { id, text });
                 }
+                plain.push(' ');
             }
             Event::Text(t) | Event::Code(t) => {
                 if let Some((_, text)) = &mut open {
@@ -344,7 +345,7 @@ mod tests {
             meta,
             "## Ejemplo\n\n**D**erivativo\nfinal\n\n## Ejemplo\n",
         );
-        assert!(topic.search_text.contains("derivativo final"));
+        assert_eq!(topic.search_text.trim(), "ejemplo derivativo final ejemplo");
         let ids: Vec<_> = topic.headings.iter().map(|h| h.id.as_str()).collect();
         assert_eq!(ids, ["ejemplo", "ejemplo-2"]);
     }
