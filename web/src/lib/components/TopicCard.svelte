@@ -4,7 +4,7 @@
 	let { topic, areaTitle = '' }: { topic: TopicSummary; areaTitle?: string } = $props();
 </script>
 
-<a class="card" href="/{topic.area}/{topic.slug}">
+<a class="card" href="/{topic.area}/{encodeURIComponent(topic.slug)}">
 	<div class="meta">
 		<span>{areaTitle ? `${areaTitle} · ${topic.branch}` : topic.branch}</span>
 		<span>{topic.minutes} min</span>

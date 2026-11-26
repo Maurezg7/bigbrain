@@ -45,7 +45,7 @@
 
 		<nav class="pager" aria-label="Temas vecinos">
 			{#if topic.prev}
-				<a href="/{topic.prev.area}/{topic.prev.slug}">
+				<a href="/{topic.prev.area}/{encodeURIComponent(topic.prev.slug)}">
 					<small>← Anterior</small>
 					{topic.prev.title}
 				</a>
@@ -53,7 +53,7 @@
 				<span></span>
 			{/if}
 			{#if topic.next}
-				<a class="next" href="/{topic.next.area}/{topic.next.slug}">
+				<a class="next" href="/{topic.next.area}/{encodeURIComponent(topic.next.slug)}">
 					<small>Siguiente →</small>
 					{topic.next.title}
 				</a>
