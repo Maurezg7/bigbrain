@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<path d="M210.0 40 L430.0 40 L480.70175438596493 125 L159.2982456140351 125 Z" stroke="#f472b6" stroke-width="2.5" fill="#f472b6" fill-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="320.0" y="80.5" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">De punta a punta</text>
+<text x="320.0" y="102.5" fill="#f472b6" font-size="13" text-anchor="middle" font-weight="400">pocas · lentas · realistas</text>
+<path d="M153.33333333333334 135 L486.66666666666663 135 L537.3684210526316 220 L102.63157894736844 220 Z" stroke="#fbbf24" stroke-width="2.5" fill="#fbbf24" fill-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="320.0" y="175.5" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">Integración</text>
+<text x="320.0" y="197.5" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="400">algunas</text>
+<path d="M96.66666666666669 230 L543.3333333333333 230 L594.0350877192982 315 L45.96491228070175 315 Z" stroke="#4ade80" stroke-width="2.5" fill="#4ade80" fill-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="320.0" y="270.5" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">Unitarias</text>
+<text x="320.0" y="292.5" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="400">muchas · rápidas · baratas</text>
+<line x1="40.0" y1="320.0" x2="40.0" y2="50.0" stroke="#9aa1b8" stroke-width="2" marker-end="url(#a9aa1b8)"/>
+<text x="52.0" y="60.0" fill="#9aa1b8" font-size="12" text-anchor="start" font-weight="400">más lentas</text>
+<text x="52.0" y="76.0" fill="#9aa1b8" font-size="12" text-anchor="start" font-weight="400">y costosas</text>
+</svg>
