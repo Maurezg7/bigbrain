@@ -288,17 +288,17 @@ fn build_topic(area: &str, slug: String, meta: FrontMatter, body: &str) -> Topic
     }
 }
 
-/// Minúsculas y sin tildes, para comparar texto en español.
+/// Minúsculas y sin tildes ni marcas de tono, para comparar texto.
 pub fn normalize(s: &str) -> String {
     s.chars()
         .flat_map(char::to_lowercase)
         .filter(|c| !('\u{300}'..='\u{36f}').contains(c))
         .map(|c| match c {
-            'á' | 'à' | 'ä' | 'â' | 'ã' => 'a',
-            'é' | 'è' | 'ë' | 'ê' => 'e',
-            'í' | 'ì' | 'ï' | 'î' => 'i',
-            'ó' | 'ò' | 'ö' | 'ô' | 'õ' => 'o',
-            'ú' | 'ù' | 'ü' | 'û' => 'u',
+            'á' | 'à' | 'ä' | 'â' | 'ã' | 'ā' | 'ǎ' => 'a',
+            'é' | 'è' | 'ë' | 'ê' | 'ē' | 'ě' => 'e',
+            'í' | 'ì' | 'ï' | 'î' | 'ī' | 'ǐ' => 'i',
+            'ó' | 'ò' | 'ö' | 'ô' | 'õ' | 'ō' | 'ǒ' => 'o',
+            'ú' | 'ù' | 'ü' | 'û' | 'ū' | 'ǔ' | 'ǖ' | 'ǘ' | 'ǚ' | 'ǜ' => 'u',
             'ñ' => 'n',
             'ç' => 'c',
             c => c,
@@ -326,6 +326,11 @@ mod tests {
     fn normalizes_spanish_text() {
         assert_eq!(normalize("Ecuación Ñandú"), "ecuacion nandu");
         assert_eq!(slugify("¿Qué es un límite?"), "que-es-un-limite");
+    }
+
+    #[test]
+    fn normalizes_romanized_vocabulary() {
+        assert_eq!(normalize("zǎoshang kōhī nǚ Ānnà"), "zaoshang kohi nu anna");
     }
 
     #[test]
