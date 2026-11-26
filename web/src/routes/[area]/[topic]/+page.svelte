@@ -10,7 +10,8 @@
 		for (const el of node.querySelectorAll<HTMLElement>('.math')) {
 			katex.render(el.textContent ?? '', el, {
 				displayMode: el.classList.contains('math-display'),
-				throwOnError: false
+				throwOnError: false,
+				strict: 'ignore'
 			});
 		}
 	}
