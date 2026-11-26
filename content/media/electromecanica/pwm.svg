@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<text x="320.0" y="24.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">Modulación por ancho de pulso</text>
+<line x1="60.0" y1="150.0" x2="600.0" y2="150.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<path d="M70 150 L70 70 L102.5 70 L102.5 150 L200 150 L200 70 L232.5 70 L232.5 150 L330 150 L330 70 L362.5 70 L362.5 150 L460 150 L460 70 L492.5 70 L492.5 150 L590 150" stroke="#fb923c" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70.0" y1="130.0" x2="590.0" y2="130.0" stroke="#e6e8f0" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="596.0" y="124.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">media</text>
+<text x="70.0" y="58.0" fill="#fb923c" font-size="14" text-anchor="start" font-weight="600">D = 25 %</text>
+<line x1="60.0" y1="300.0" x2="600.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<path d="M70 300 L70 220 L167.5 220 L167.5 300 L200 300 L200 220 L297.5 220 L297.5 300 L330 300 L330 220 L427.5 220 L427.5 300 L460 300 L460 220 L557.5 220 L557.5 300 L590 300" stroke="#3ddbd9" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70.0" y1="240.0" x2="590.0" y2="240.0" stroke="#e6e8f0" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="596.0" y="234.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">media</text>
+<text x="70.0" y="208.0" fill="#3ddbd9" font-size="14" text-anchor="start" font-weight="600">D = 75 %</text>
+</svg>

@@ -1,8 +1,8 @@
 +++
 title = "Esfuerzo y deformación"
 summary = "Cómo responde un material a una carga: ley de Hooke, diagrama tensión-deformación y factor de seguridad."
-branch = "Mecánica y materiales"
-order = 1
+branch = "Estabilidad y resistencia de materiales"
+order = 2
 level = "Intermedio"
 tags = ["tensión", "módulo de Young", "fluencia", "factor de seguridad"]
 +++

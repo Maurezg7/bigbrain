@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="afbbf24" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fbbf24"/></marker>
+<marker id="a8b7bff" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8b7bff"/></marker>
+<marker id="a3ddbd9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#3ddbd9"/></marker>
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<circle cx="300.0" cy="195.0" r="130" stroke="#3a4160" stroke-width="1.5" fill="none" fill-opacity="1"/>
+<line x1="300.0" y1="195.0" x2="300.0" y2="65.0" stroke="#fb923c" stroke-width="3" marker-end="url(#afb923c)"/>
+<text x="300.0" y="46.0" fill="#fb923c" font-size="16" text-anchor="middle" font-weight="600">Vᵣ</text>
+<line x1="300.0" y1="195.0" x2="412.6" y2="260.0" stroke="#3ddbd9" stroke-width="3" marker-end="url(#a3ddbd9)"/>
+<text x="433.4" y="277.0" fill="#3ddbd9" font-size="16" text-anchor="middle" font-weight="600">Vₛ</text>
+<line x1="300.0" y1="195.0" x2="187.4" y2="260.0" stroke="#8b7bff" stroke-width="3" marker-end="url(#a8b7bff)"/>
+<text x="166.6" y="277.0" fill="#8b7bff" font-size="16" text-anchor="middle" font-weight="600">Vₜ</text>
+<line x1="412.6" y1="260.0" x2="300.0" y2="65.0" stroke="#fbbf24" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#afbbf24)"/>
+<text x="440.0" y="120.0" fill="#fbbf24" font-size="15" text-anchor="start" font-weight="400">tensión de línea</text>
+<text x="440.0" y="142.0" fill="#fbbf24" font-size="14" text-anchor="start" font-weight="400">= √3 × tensión de fase</text>
+<path d="M300.0 161.0 A34 34 0 0 1 329.4 212.0" stroke="#9aa1b8" stroke-width="1.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="352.0" y="173.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">120°</text>
+</svg>

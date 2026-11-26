@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="70.0" y1="300.0" x2="610.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="70.0" y1="36.0" x2="70.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="606.0" y="320.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic"></text>
+<text x="56.0" y="306.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic"></text>
+<text x="600.0" y="344.0" fill="#9aa1b8" font-size="14" text-anchor="end" font-weight="400" font-style="italic">I / Iₙ</text>
+<text x="20.0" y="30.0" fill="#9aa1b8" font-size="14" text-anchor="start" font-weight="400" font-style="italic">t</text>
+<text x="340.0" y="24.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">Curva de disparo de un interruptor termomagnético</text>
+<path d="M87.2 63.9 L122.4 89.8 L167.7 140.0 L224.9 168.0 L296.9 192.0 L344.3 204.1 L348.3 288.0 L590.0 303.9" stroke="#8b7bff" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70.0" y1="300.0" x2="70.0" y2="60.0" stroke="#3a4160" stroke-width="1" stroke-dasharray="3 5"/>
+<text x="70.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">1</text>
+<line x1="167.7" y1="300.0" x2="167.7" y2="60.0" stroke="#3a4160" stroke-width="1" stroke-dasharray="3 5"/>
+<text x="167.7" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">2</text>
+<line x1="296.9" y1="300.0" x2="296.9" y2="60.0" stroke="#3a4160" stroke-width="1" stroke-dasharray="3 5"/>
+<text x="296.9" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">5</text>
+<line x1="394.6" y1="300.0" x2="394.6" y2="60.0" stroke="#3a4160" stroke-width="1" stroke-dasharray="3 5"/>
+<text x="394.6" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10</text>
+<line x1="492.3" y1="300.0" x2="492.3" y2="60.0" stroke="#3a4160" stroke-width="1" stroke-dasharray="3 5"/>
+<text x="492.3" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">20</text>
+<text x="62.0" y="305.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">0,01 s</text>
+<text x="62.0" y="225.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">1 s</text>
+<text x="62.0" y="145.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">100 s</text>
+<text x="62.0" y="65.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">10 000 s</text>
+<text x="181.1" y="108.9" fill="#fb923c" font-size="14" text-anchor="start" font-weight="400">zona térmica</text>
+<text x="181.1" y="129.8" fill="#9aa1b8" font-size="12" text-anchor="start" font-weight="400">(sobrecarga)</text>
+<text x="431.6" y="240.9" fill="#3ddbd9" font-size="14" text-anchor="middle" font-weight="400">zona magnética</text>
+<text x="431.6" y="263.9" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">(cortocircuito)</text>
+</svg>

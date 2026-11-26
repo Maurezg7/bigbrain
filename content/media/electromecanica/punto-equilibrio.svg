@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="70.0" y1="300.0" x2="610.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="70.0" y1="36.0" x2="70.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="606.0" y="320.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic"></text>
+<text x="56.0" y="306.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic"></text>
+<text x="600.0" y="344.0" fill="#9aa1b8" font-size="14" text-anchor="end" font-weight="400" font-style="italic">cantidad Q</text>
+<text x="20.0" y="30.0" fill="#9aa1b8" font-size="14" text-anchor="start" font-weight="400" font-style="italic">$</text>
+<line x1="70.0" y1="300.0" x2="590.0" y2="72.0" stroke="#3ddbd9" stroke-width="3"/>
+<line x1="70.0" y1="228.0" x2="590.0" y2="120.0" stroke="#fb923c" stroke-width="3"/>
+<line x1="70.0" y1="228.0" x2="590.0" y2="228.0" stroke="#9aa1b8" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="382.0" cy="163.2" r="6" fill="#fbbf24"/>
+<line x1="382.0" y1="300.0" x2="382.0" y2="163.2" stroke="#3a4160" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="382.0" y="318.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400">Qₑ</text>
+<text x="584.8" y="62.0" fill="#3ddbd9" font-size="14" text-anchor="end" font-weight="400">ingresos</text>
+<text x="153.2" y="196.8" fill="#fb923c" font-size="14" text-anchor="middle" font-weight="400">costos totales</text>
+<text x="584.8" y="248.0" fill="#9aa1b8" font-size="13" text-anchor="end" font-weight="400">costos fijos</text>
+<text x="226.0" y="247.2" fill="#f472b6" font-size="14" text-anchor="middle" font-weight="400">pérdida</text>
+<text x="543.2" y="114.7" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="400">ganancia</text>
+<text x="372.0" y="151.2" fill="#fbbf24" font-size="14" text-anchor="end" font-weight="400">punto de equilibrio</text>
+</svg>

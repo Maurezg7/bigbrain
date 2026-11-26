@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="70.0" y1="300.0" x2="610.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="70.0" y1="36.0" x2="70.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="606.0" y="320.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic"></text>
+<text x="56.0" y="306.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic"></text>
+<text x="600.0" y="344.0" fill="#9aa1b8" font-size="14" text-anchor="end" font-weight="400" font-style="italic">N (ciclos, escala logarítmica)</text>
+<text x="20.0" y="30.0" fill="#9aa1b8" font-size="14" text-anchor="start" font-weight="400" font-style="italic">σ</text>
+<text x="340.0" y="24.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">Curva S-N</text>
+<path d="M70.0 84.0 L382.0 192.0 L590.0 192.0" stroke="#3ddbd9" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M70.0 120.0 L590.0 256.8" stroke="#fb923c" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<line x1="70.0" y1="192.0" x2="382.0" y2="192.0" stroke="#3a4160" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="62.0" y="197.0" fill="#9aa1b8" font-size="14" text-anchor="end" font-weight="400">Sₑ</text>
+<text x="70.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10³</text>
+<text x="174.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10⁴</text>
+<text x="278.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10⁵</text>
+<text x="382.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10⁶</text>
+<text x="486.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10⁷</text>
+<text x="590.0" y="318.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">10⁸</text>
+<text x="486.0" y="180.0" fill="#3ddbd9" font-size="14" text-anchor="middle" font-weight="400">acero: límite de fatiga</text>
+<text x="444.4" y="252.0" fill="#fb923c" font-size="14" text-anchor="middle" font-weight="400">aluminio: sin límite</text>
+</svg>

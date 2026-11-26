@@ -2,7 +2,7 @@
 title = "Corriente alterna y potencia"
 summary = "Valores eficaces, impedancia, fasores, potencia activa, reactiva y aparente, y factor de potencia."
 branch = "Circuitos eléctricos"
-order = 2
+order = 3
 level = "Intermedio"
 tags = ["impedancia", "fasores", "factor de potencia", "reactiva"]
 +++

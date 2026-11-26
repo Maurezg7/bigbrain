@@ -28,10 +28,27 @@ branches = ["Estructura de la materia", "Enlace químico", "Reacciones y estequi
 [[area]]
 slug = "electromecanica"
 title = "Ingeniería electromecánica"
-description = "Circuitos, máquinas eléctricas, resistencia de materiales y control automático para diseñar y mantener sistemas reales."
+description = "El recorrido de la carrera materia por materia: circuitos, electrónica, máquinas eléctricas, térmicas e hidráulicas, mecánica, materiales, control y gestión."
 symbol = "Ω"
 color = "#fbbf24"
-branches = ["Circuitos eléctricos", "Máquinas eléctricas", "Mecánica y materiales", "Control y automatización"]
+branches = [
+  "Circuitos eléctricos",
+  "Sistemas y señales",
+  "Electromagnetismo",
+  "Mediciones eléctricas",
+  "Electrónica",
+  "Máquinas eléctricas",
+  "Instalaciones y sistemas eléctricos",
+  "Estabilidad y resistencia de materiales",
+  "Materiales",
+  "Mecánica y elementos de máquinas",
+  "Mecanismos y tecnología mecánica",
+  "Termodinámica y transmisión de calor",
+  "Mecánica de los fluidos",
+  "Máquinas térmicas e hidráulicas",
+  "Instrumentación y control automático",
+  "Gestión, ambiente y seguridad",
+]
 
 [[area]]
 slug = "software"

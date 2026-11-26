@@ -1,8 +1,8 @@
 +++
 title = "Control automático y PID"
 summary = "Lazo cerrado, realimentación y el controlador PID: qué hace cada término y cómo ajustarlo."
-branch = "Control y automatización"
-order = 1
+branch = "Instrumentación y control automático"
+order = 2
 level = "Avanzado"
 tags = ["realimentación", "lazo cerrado", "PID", "sintonía"]
 +++
