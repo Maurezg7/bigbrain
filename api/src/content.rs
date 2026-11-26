@@ -228,7 +228,13 @@ fn build_topic(area: &str, slug: String, meta: FrontMatter, body: &str) -> Topic
             }
             Event::End(TagEnd::Heading(HeadingLevel::H2)) => {
                 if let Some((start, text)) = open.take() {
-                    let id = slugify(&text);
+                    let base = slugify(&text);
+                    let mut id = base.clone();
+                    let mut n = 2;
+                    while headings.iter().any(|h: &Heading| h.id == id) {
+                        id = format!("{base}-{n}");
+                        n += 1;
+                    }
                     if let Event::Start(Tag::Heading { id: slot, .. }) = &mut events[start] {
                         *slot = Some(CowStr::from(id.clone()));
                     }
@@ -240,8 +246,15 @@ fn build_topic(area: &str, slug: String, meta: FrontMatter, body: &str) -> Topic
                     text.push_str(t);
                 }
                 plain.push_str(t);
-                plain.push(' ');
             }
+            Event::End(
+                TagEnd::Emphasis | TagEnd::Strong | TagEnd::Strikethrough | TagEnd::Link,
+            ) => {}
+            Event::End(_)
+            | Event::SoftBreak
+            | Event::HardBreak
+            | Event::InlineMath(_)
+            | Event::DisplayMath(_) => plain.push(' '),
             _ => {}
         }
     }
@@ -278,6 +291,7 @@ fn build_topic(area: &str, slug: String, meta: FrontMatter, body: &str) -> Topic
 pub fn normalize(s: &str) -> String {
     s.chars()
         .flat_map(char::to_lowercase)
+        .filter(|c| !('\u{300}'..='\u{36f}').contains(c))
         .map(|c| match c {
             'á' | 'à' | 'ä' | 'â' | 'ã' => 'a',
             'é' | 'è' | 'ë' | 'ê' => 'e',
@@ -311,6 +325,28 @@ mod tests {
     fn normalizes_spanish_text() {
         assert_eq!(normalize("Ecuación Ñandú"), "ecuacion nandu");
         assert_eq!(slugify("¿Qué es un límite?"), "que-es-un-limite");
+    }
+
+    #[test]
+    fn normalize_strips_combining_accents() {
+        assert_eq!(normalize("ecuacio\u{301}n an\u{303}o"), "ecuacion ano");
+    }
+
+    #[test]
+    fn partly_bold_words_stay_whole_and_duplicate_headings_get_unique_ids() {
+        let meta: FrontMatter = toml::from_str(
+            "title = \"T\"\nsummary = \"S\"\nbranch = \"B\"\norder = 1\nlevel = \"L\"\ntags = []",
+        )
+        .unwrap();
+        let topic = build_topic(
+            "a",
+            "s".into(),
+            meta,
+            "## Ejemplo\n\n**D**erivativo\nfinal\n\n## Ejemplo\n",
+        );
+        assert!(topic.search_text.contains("derivativo final"));
+        let ids: Vec<_> = topic.headings.iter().map(|h| h.id.as_str()).collect();
+        assert_eq!(ids, ["ejemplo", "ejemplo-2"]);
     }
 
     #[test]
