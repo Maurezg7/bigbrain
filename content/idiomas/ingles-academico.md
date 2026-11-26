@@ -2,7 +2,7 @@
 title = "Inglés académico y técnico"
 summary = "Conectores, voz pasiva, falsos amigos y cómo leer un artículo científico en inglés."
 branch = "Inglés"
-order = 2
+order = 8
 level = "Intermedio"
 tags = ["inglés", "papers", "conectores", "falsos amigos", "escritura"]
 +++

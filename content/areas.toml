@@ -69,7 +69,7 @@ branches = ["Sistemas numéricos y lógica digital", "Arquitectura de computador
 [[area]]
 slug = "idiomas"
 title = "Idiomas"
-description = "Inglés, portugués y francés para estudiar y trabajar, con las técnicas que realmente funcionan para aprender una lengua."
+description = "Inglés, alemán, japonés, chino, portugués y francés para estudiar y trabajar, con las técnicas que realmente funcionan para aprender una lengua."
 symbol = "Aa"
 color = "#fb923c"
-branches = ["Técnicas de estudio", "Inglés", "Portugués", "Francés"]
+branches = ["Técnicas de estudio", "Inglés", "Alemán", "Japonés", "Chino", "Portugués", "Francés"]
