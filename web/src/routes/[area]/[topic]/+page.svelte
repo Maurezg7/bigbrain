@@ -15,10 +15,12 @@
 	let prose = $state<HTMLElement>();
 	let read = $state(0);
 	let active = $state('');
+	let hash = $state('');
 
 	// Avance de lectura y sección visible, recalculados al desplazarse.
 	$effect(() => {
 		void scrollY;
+		void hash;
 		if (!prose) return;
 		const box = prose.getBoundingClientRect();
 		const span = box.height - innerHeight * 0.6;
@@ -72,7 +74,7 @@
 	}
 </script>
 
-<svelte:window bind:scrollY bind:innerHeight />
+<svelte:window bind:scrollY bind:innerHeight onhashchange={() => (hash = location.hash)} />
 
 <svelte:head>
 	<title>{topic.title} · {topic.area_title} · BigBrain</title>
