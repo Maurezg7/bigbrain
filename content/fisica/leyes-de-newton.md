@@ -2,7 +2,7 @@
 title = "Leyes de Newton"
 summary = "Las tres leyes que explican por qué se mueven los cuerpos, y cómo usarlas con diagramas de cuerpo libre."
 branch = "Mecánica"
-order = 2
+order = 3
 level = "Básico"
 tags = ["fuerza", "dinámica", "rozamiento", "plano inclinado"]
 +++

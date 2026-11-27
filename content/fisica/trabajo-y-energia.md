@@ -2,7 +2,7 @@
 title = "Trabajo, energía y potencia"
 summary = "El trabajo transfiere energía; la energía mecánica se conserva cuando solo actúan fuerzas conservativas."
 branch = "Mecánica"
-order = 3
+order = 4
 level = "Básico"
 tags = ["energía cinética", "energía potencial", "conservación", "potencia"]
 +++
