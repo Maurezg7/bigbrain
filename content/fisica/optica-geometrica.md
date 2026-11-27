@@ -131,7 +131,7 @@ Para una lente convergente, tres rayos principales localizan la imagen:
 2. El que pasa por el **centro** no se desvía.
 3. El que pasa por el **foco** sale paralelo al eje.
 
-**Ecuación del constructor de lentes**:
+**Ecuación del constructor de lentes** (lente de índice $n$ en aire):
 
 $$\frac{1}{f} = (n - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)$$
 
