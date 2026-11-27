@@ -23,10 +23,23 @@
 		const box = prose.getBoundingClientRect();
 		const span = box.height - innerHeight * 0.6;
 		read = span > 0 ? Math.min(1, Math.max(0, -box.top / span)) : 1;
+		const headings = [...prose.querySelectorAll<HTMLElement>('h2[id]')];
 		let current = '';
-		for (const h of prose.querySelectorAll<HTMLElement>('h2[id]')) {
+		for (const h of headings) {
 			if (h.getBoundingClientRect().top > 130) break;
 			current = h.id;
+		}
+		// Al pie de la página las últimas secciones no llegan al umbral superior:
+		// se marca la elegida en el índice si está a la vista, o si no la última.
+		const atBottom = scrollY + innerHeight >= document.documentElement.scrollHeight - 2;
+		if (atBottom && scrollY > 0 && headings.length) {
+			const visible = headings.filter((h) => {
+				const top = h.getBoundingClientRect().top;
+				return top > 130 && top < innerHeight;
+			});
+			const target = decodeURIComponent(location.hash.slice(1));
+			const chosen = visible.find((h) => h.id === target) ?? visible.at(-1);
+			if (chosen) current = chosen.id;
 		}
 		active = current;
 	});

@@ -95,6 +95,7 @@
 	<input
 		bind:this={input}
 		type="search"
+		name="q"
 		bind:value={query}
 		onkeydown={keydown}
 		placeholder="Buscar: derivadas, Kirchhoff, enlaces, recursión…"

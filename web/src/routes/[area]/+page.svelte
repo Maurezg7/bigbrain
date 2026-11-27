@@ -54,6 +54,7 @@
 	<div class="tools">
 		<input
 			type="search"
+			name="filtro"
 			bind:value={filter}
 			placeholder="Filtrar temas de {area.title}…"
 			aria-label="Filtrar temas"
