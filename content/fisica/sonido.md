@@ -113,7 +113,7 @@ Cuando la fuente o el observador se mueven, la frecuencia percibida cambia.
 
 > [!IMPORTANT]
 > $$f' = f\,\frac{v \pm v_o}{v \mp v_f}$$
-> Signos superiores si se **acercan**; inferiores si se **alejan**. $v$ es la velocidad del sonido, $v_o$ la del observador y $v_f$ la de la fuente, medidas respecto del aire.
+> Cada signo se elige por separado: en el numerador, $+$ si el observador se mueve **hacia** la fuente y $-$ si se aleja; en el denominador, $-$ si la fuente se mueve **hacia** el observador y $+$ si se aleja. $v$ es la velocidad del sonido, $v_o$ la del observador y $v_f$ la de la fuente, medidas respecto del aire.
 
 Al acercarse, el sonido se oye más agudo; al alejarse, más grave.
 
