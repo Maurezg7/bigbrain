@@ -50,10 +50,10 @@ $$I = \sum m_ir_i^2 = \int r^2\,dm$$
 
 | Cuerpo | Eje | $I$ |
 |---|---|---|
-| Aro o cilindro hueco | central | $MR^2$ |
+| Aro o cilindro hueco de pared delgada | central | $MR^2$ |
 | Disco o cilindro macizo | central | $\tfrac{1}{2}MR^2$ |
 | Esfera maciza | por el centro | $\tfrac{2}{5}MR^2$ |
-| Esfera hueca | por el centro | $\tfrac{2}{3}MR^2$ |
+| Esfera hueca de pared delgada | por el centro | $\tfrac{2}{3}MR^2$ |
 | Varilla | por el centro | $\tfrac{1}{12}ML^2$ |
 | Varilla | por un extremo | $\tfrac{1}{3}ML^2$ |
 
