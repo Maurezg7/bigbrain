@@ -22,7 +22,7 @@ $G$ es tan pequeña que la gravedad solo se nota cuando al menos una masa es eno
 
 ## Campo gravitatorio
 
-La aceleración de la gravedad a distancia $r$ del centro de un cuerpo de masa $M$:
+La aceleración de la gravedad a distancia $r$ del centro de un cuerpo esférico de masa $M$, en su superficie o fuera de él:
 
 $$g = \frac{GM}{r^2}$$
 
