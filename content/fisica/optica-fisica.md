@@ -15,7 +15,7 @@ La óptica geométrica no explica qué pasa cuando la luz encuentra obstáculos 
 
 ## Interferencia
 
-Cuando dos ondas se superponen, sus amplitudes se suman.
+Cuando dos ondas se superponen, sus amplitudes se suman. Para dos fuentes que emiten **en fase**:
 
 | Tipo | Diferencia de camino | Resultado |
 |---|---|---|
