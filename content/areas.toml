@@ -53,10 +53,10 @@ branches = [
 [[area]]
 slug = "software"
 title = "Software"
-description = "Programar bien: fundamentos, algoritmos y estructuras de datos, control de versiones y lenguajes modernos como Rust."
+description = "Programar bien: fundamentos, algoritmos y estructuras de datos, ingeniería de software y lenguajes como Python, C, Java, JavaScript y Rust."
 symbol = "{ }"
 color = "#a3e635"
-branches = ["Fundamentos de programación", "Algoritmos y estructuras de datos", "Ingeniería de software", "Rust"]
+branches = ["Fundamentos de programación", "Algoritmos y estructuras de datos", "Ingeniería de software", "Lenguajes", "Rust"]
 
 [[area]]
 slug = "informatica"
