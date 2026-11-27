@@ -88,7 +88,7 @@ Por la segunda ley de Newton, hace falta una **fuerza centrípeta** $F_c = \dfra
 
 Si la rapidez cambia, hay además **aceleración tangencial** $a_t = \dfrac{dv}{dt} = \alpha r$. La aceleración total es $a = \sqrt{a_c^2 + a_t^2}$.
 
-Las ecuaciones angulares son análogas a las lineales:
+Con aceleración angular $\alpha$ **constante**, las ecuaciones angulares son análogas a las lineales:
 
 | Lineal | Angular |
 |---|---|
