@@ -44,9 +44,9 @@ A velocidades cotidianas $\gamma \approx 1$ y se recupera la física de Newton.
 $\Delta t_0$ es el **tiempo propio**: el medido por un reloj que está presente en ambos sucesos (en reposo respecto de ellos). Cualquier otro observador mide un intervalo **mayor**: los relojes en movimiento atrasan.
 
 > [!NOTE]
-> Los **muones** creados en la alta atmósfera viven $2{,}2\ \mu\text{s}$ en reposo. A $0{,}998c$ recorrerían solo $660$ m antes de desintegrarse, y sin embargo llegan al suelo.
+> Los **muones** creados en la alta atmósfera tienen una vida media de $2{,}2\ \mu\text{s}$ en reposo. A $0{,}998c$ recorrerían en promedio solo $660$ m antes de desintegrarse, y sin embargo muchos llegan al suelo.
 >
-> Con $\gamma = 15{,}8$, desde la Tierra viven $34{,}8\ \mu\text{s}$ y recorren más de $10$ km.
+> Con $\gamma = 15{,}8$, desde la Tierra su vida media es $34{,}8\ \mu\text{s}$ y recorren en promedio más de $10$ km.
 
 No es una ilusión ni un defecto de los relojes: es el tiempo mismo. Se ha verificado con relojes atómicos en aviones, y el sistema GPS debe corregirlo.
 
