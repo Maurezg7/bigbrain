@@ -52,7 +52,10 @@
 	}
 
 	function keydown(event: KeyboardEvent) {
-		if (event.key === 'Escape') open = false;
+		if (event.key === 'Escape') {
+			open = false;
+			index = -1;
+		}
 		if (!results.length) return;
 		if (event.key === 'ArrowDown') {
 			event.preventDefault();
