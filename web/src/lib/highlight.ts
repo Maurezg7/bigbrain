@@ -1,9 +1,11 @@
 import hljs from 'highlight.js/lib/core';
 import bash from 'highlight.js/lib/languages/bash';
+import c from 'highlight.js/lib/languages/c';
 import dockerfile from 'highlight.js/lib/languages/dockerfile';
 import http from 'highlight.js/lib/languages/http';
 import ini from 'highlight.js/lib/languages/ini';
 import java from 'highlight.js/lib/languages/java';
+import javascript from 'highlight.js/lib/languages/javascript';
 import json from 'highlight.js/lib/languages/json';
 import kotlin from 'highlight.js/lib/languages/kotlin';
 import python from 'highlight.js/lib/languages/python';
@@ -13,16 +15,19 @@ import typescript from 'highlight.js/lib/languages/typescript';
 import xml from 'highlight.js/lib/languages/xml';
 import yaml from 'highlight.js/lib/languages/yaml';
 
-const languages = { bash, dockerfile, http, ini, java, json, kotlin, python, rust, sql, typescript, xml, yaml };
+const languages = { bash, c, dockerfile, http, ini, java, javascript, json, kotlin, python, rust, sql, typescript, xml, yaml };
 for (const [name, language] of Object.entries(languages)) hljs.registerLanguage(name, language);
 hljs.registerAliases(['toml'], { languageName: 'ini' });
-hljs.registerAliases(['tsx', 'js', 'jsx'], { languageName: 'typescript' });
+hljs.registerAliases(['tsx'], { languageName: 'typescript' });
 hljs.registerAliases(['svelte', 'vue', 'html'], { languageName: 'xml' });
 
 const LABELS: Record<string, string> = {
 	ts: 'TypeScript',
 	tsx: 'TSX',
 	js: 'JavaScript',
+	javascript: 'JavaScript',
+	typescript: 'TypeScript',
+	c: 'C',
 	rust: 'Rust',
 	java: 'Java',
 	kotlin: 'Kotlin',
