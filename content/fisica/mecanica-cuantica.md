@@ -75,7 +75,7 @@ Para estados de energía definida (**estacionarios**), se reduce a la ecuación 
 > [!IMPORTANT]
 > $$-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + U(x)\,\psi = E\,\psi$$
 
-Es un problema de autovalores: solo ciertas energías $E$ tienen solución aceptable. Así aparece la **cuantización**.
+Es un problema de autovalores. Para una partícula **confinada** (ligada), solo ciertas energías $E$ tienen solución aceptable: así aparece la **cuantización**. Una partícula libre, en cambio, puede tener cualquier energía.
 
 ## Partícula en una caja
 
