@@ -134,9 +134,9 @@ $$N = (I - Q)^{-1}$$
 > [!NOTE]
 > **La ruina del jugador.** Un jugador tiene \$1 y apuesta \$1 por vez, con probabilidad ½ de ganar. Se retira al llegar a \$3 o al quedar en \$0. Estados transitorios: 1 y 2. Absorbentes: 0 y 3.
 >
-> $$Q = \begin{pmatrix} 0 & ½ \\ ½ & 0 \end{pmatrix} \qquad R = \begin{pmatrix} ½ & 0 \\ 0 & ½ \end{pmatrix}$$
+> $$Q = \begin{pmatrix} 0 & \tfrac{1}{2} \\ \tfrac{1}{2} & 0 \end{pmatrix} \qquad R = \begin{pmatrix} \tfrac{1}{2} & 0 \\ 0 & \tfrac{1}{2} \end{pmatrix}$$
 >
-> $$N = (I - Q)^{-1} = \frac{4}{3} \begin{pmatrix} 1 & ½ \\ ½ & 1 \end{pmatrix} = \begin{pmatrix} 4/3 & 2/3 \\ 2/3 & 4/3 \end{pmatrix}$$
+> $$N = (I - Q)^{-1} = \frac{4}{3} \begin{pmatrix} 1 & \tfrac{1}{2} \\ \tfrac{1}{2} & 1 \end{pmatrix} = \begin{pmatrix} 4/3 & 2/3 \\ 2/3 & 4/3 \end{pmatrix}$$
 >
 > $$B = N R = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & 2/3 \end{pmatrix}$$
 >
@@ -148,7 +148,7 @@ En general, con juego equilibrado, capital inicial $i$ y meta $M$, la probabilid
 
 En cada paso, la posición aumenta o disminuye en 1, con probabilidades $p$ y $1 - p$.
 
-| Propiedad (caso simétrico, $p = ½$) | |
+| Propiedad (caso simétrico, $p = \tfrac{1}{2}$) | |
 |---|---|
 | Posición esperada tras $n$ pasos | 0 |
 | Varianza | $n$ |
