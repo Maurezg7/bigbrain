@@ -75,7 +75,9 @@ $$I = \sum m_ir_i^2 = \int r^2\,dm$$
 
 ## Energía y trabajo
 
-$$E_c = \tfrac{1}{2}I\omega^2 \qquad W = \tau\,\Delta\theta \qquad P = \tau\,\omega$$
+$$E_c = \tfrac{1}{2}I\omega^2 \qquad W = \int\tau\,d\theta \qquad P = \tau\,\omega$$
+
+Con par constante, $W = \tau\,\Delta\theta$.
 
 La última es la relación entre potencia, par y velocidad de cualquier motor.
 
