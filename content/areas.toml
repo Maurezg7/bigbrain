@@ -61,10 +61,10 @@ branches = ["Fundamentos de programación", "Algoritmos y estructuras de datos",
 [[area]]
 slug = "informatica"
 title = "Informática"
-description = "Qué pasa debajo del código y cómo se construye software real: lógica digital, arquitectura, sistemas operativos, redes, bases de datos, frameworks de Rust, Java y TypeScript, y buenas prácticas."
+description = "Qué pasa debajo del código y cómo se construye software real: lógica digital, arquitectura, sistemas operativos, redes, bases de datos, teoría de la computación, inteligencia artificial, sistemas distribuidos, frameworks de Rust, Java y TypeScript, y buenas prácticas."
 symbol = "01"
 color = "#f472b6"
-branches = ["Sistemas numéricos y lógica digital", "Arquitectura de computadoras", "Sistemas operativos", "Redes", "Bases de datos", "Frameworks de Rust", "Frameworks de Java", "Frameworks de TypeScript", "Buenas prácticas"]
+branches = ["Sistemas numéricos y lógica digital", "Arquitectura de computadoras", "Sistemas operativos", "Redes", "Bases de datos", "Teoría de la computación", "Inteligencia artificial", "Sistemas distribuidos y nube", "Frameworks de Rust", "Frameworks de Java", "Frameworks de TypeScript", "Buenas prácticas"]
 
 [[area]]
 slug = "idiomas"
