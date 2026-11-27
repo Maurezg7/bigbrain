@@ -61,12 +61,12 @@ Una tabla puede combinarse **consigo misma** usando dos alias (por ejemplo, empl
 Una consulta dentro de otra.
 
 ```sql
--- Escalar: devuelve un valor
+-- Con IN: la subconsulta devuelve una lista de valores
 SELECT nombre
 FROM estudiante
 WHERE legajo IN (SELECT legajo FROM inscripcion WHERE nota = 10);
 
--- Notas por encima del promedio general
+-- Escalar: la subconsulta devuelve un solo valor (el promedio general)
 SELECT legajo, nota
 FROM inscripcion
 WHERE nota > (SELECT AVG(nota) FROM inscripcion);
