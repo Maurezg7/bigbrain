@@ -65,7 +65,7 @@ La energía es proporcional al **cuadrado de la amplitud**. De aquí sale la vel
 
 $$v = \pm\omega\sqrt{A^2 - x^2}$$
 
-## Oscilaciones amortiguadas
+Con una fuerza de rozamiento $-bv$ débil (régimen subamortiguado), la amplitud decae exponencialmente:
 
 Con una fuerza de rozamiento $-bv$, la amplitud decae exponencialmente:
 
