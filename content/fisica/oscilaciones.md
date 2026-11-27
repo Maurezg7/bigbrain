@@ -84,9 +84,9 @@ Los amortiguadores de un auto y el cierre de una puerta se diseñan cerca del r�
 Si una fuerza externa periódica actúa sobre el oscilador, este termina oscilando a la frecuencia de la fuerza.
 
 > [!IMPORTANT]
-> **Resonancia**: la amplitud es máxima cuando la frecuencia de la fuerza coincide con la **frecuencia natural** del sistema.
+> **Resonancia**: con amortiguamiento débil, la amplitud es máxima cuando la frecuencia de la fuerza es (prácticamente) igual a la **frecuencia natural** del sistema.
 
-Cuanto menor es el amortiguamiento, más alto y angosto es el pico.
+Cuanto menor es el amortiguamiento, más alto y angosto es el pico, y más cerca queda de la frecuencia natural; con amortiguamiento fuerte el pico desaparece.
 
 | Resonancia útil | Resonancia peligrosa |
 |---|---|
