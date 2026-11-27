@@ -13,10 +13,13 @@ function load(): string[] {
 
 const read = new SvelteSet<string>(load());
 
-// Otra pestaña cambió el avance: se vuelve a leer para no pisar sus marcas.
+// Marcas que no se pudieron guardar: viven solo en esta pestaña.
+const unsaved = new Set<string>();
+
+// Otra pestaña cambió el avance: se adopta lo guardado sin perder lo no guardado.
 function sync() {
 	const stored = new Set(load());
-	for (const key of read) if (!stored.has(key)) read.delete(key);
+	for (const key of read) if (!stored.has(key) && !unsaved.has(key)) read.delete(key);
 	for (const key of stored) read.add(key);
 }
 if (typeof window !== 'undefined') {
@@ -37,14 +40,20 @@ export const progress = {
 	},
 	toggle(area: string, slug: string) {
 		const key = id(area, slug);
-		const was = read.has(key);
-		sync();
-		if (was !== read.has(key)) return;
-		if (!read.delete(key)) read.add(key);
+		const marked = !read.has(key);
+		if (marked) read.add(key);
+		else read.delete(key);
+		unsaved.delete(key);
+		// Se parte de lo guardado para no pisar las marcas de otra pestaña.
+		const stored = new Set([...load(), ...unsaved]);
+		if (marked) stored.add(key);
+		else stored.delete(key);
 		try {
-			localStorage.setItem(KEY, JSON.stringify([...read]));
+			localStorage.setItem(KEY, JSON.stringify([...stored]));
+			unsaved.clear();
 		} catch {
 			// Sin almacenamiento disponible, el progreso dura lo que la pestaña.
+			if (marked) unsaved.add(key);
 		}
 	}
 };
