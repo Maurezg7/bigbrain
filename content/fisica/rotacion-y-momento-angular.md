@@ -79,7 +79,7 @@ $$E_c = \tfrac{1}{2}I\omega^2 \qquad W = \int\tau\,d\theta \qquad P = \tau\,\ome
 
 Con par constante, $W = \tau\,\Delta\theta$.
 
-La última es la relación entre potencia, par y velocidad de cualquier motor.
+$P = \tau\,\omega$ es la relación entre potencia, par y velocidad de cualquier motor.
 
 ### Rodadura
 
