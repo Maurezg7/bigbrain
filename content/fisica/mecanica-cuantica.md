@@ -30,6 +30,7 @@ De Broglie propuso en 1924 que la materia también tiene propiedades ondulatoria
 
 > [!IMPORTANT]
 > $$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+> La última igualdad vale para velocidades no relativistas; en general $p = \gamma mv$.
 
 Se confirmó al observar difracción de electrones en cristales.
 
