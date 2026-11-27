@@ -59,7 +59,7 @@ Para un grafo de $n$ vértices:
 | | Matriz de adyacencia | Lista de adyacencia |
 |---|---|---|
 | Qué guarda | $a_{ij} = 1$ si hay arista de $i$ a $j$ | para cada vértice, sus vecinos |
-| Memoria | $n^2$ | $n + |E|$ |
+| Memoria | $n^2$ | $n + \lvert E \rvert$ |
 | Conviene para | grafos densos | grafos con pocas aristas |
 
 En un grafo no dirigido la matriz es simétrica. Además, el elemento $(i, j)$ de $A^k$ cuenta los caminos de longitud $k$ entre $i$ y $j$.
