@@ -52,12 +52,12 @@ La **energía de enlace por nucleón** es máxima cerca del hierro-56 (unos $8{,
 
 Los núcleos inestables se transforman espontáneamente emitiendo radiación.
 
-| Tipo | Emite | Cambio en el núcleo | Lo detiene |
+| Tipo | Emite | Cambio en el núcleo | Blindaje |
 |---|---|---|---|
 | Alfa ($\alpha$) | núcleo de helio-4 | $Z - 2$, $A - 4$ | una hoja de papel |
 | Beta menos ($\beta^-$) | electrón y antineutrino | $Z + 1$, $A$ igual | unos mm de aluminio |
 | Beta más ($\beta^+$) | positrón y neutrino | $Z - 1$, $A$ igual | unos mm de aluminio |
-| Gamma ($\gamma$) | fotón de alta energía | sin cambio | varios cm de plomo |
+| Gamma ($\gamma$) | fotón de alta energía | sin cambio | se atenúa con varios cm de plomo (no se detiene del todo) |
 
 En toda desintegración se conservan la carga y el número de nucleones.
 
