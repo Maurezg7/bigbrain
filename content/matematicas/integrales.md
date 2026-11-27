@@ -2,7 +2,7 @@
 title = "Integrales"
 summary = "La integral suma infinitas porciones infinitamente pequeñas: áreas, distancias, trabajo."
 branch = "Cálculo"
-order = 3
+order = 4
 level = "Intermedio"
 tags = ["integral", "área", "primitiva"]
 +++
