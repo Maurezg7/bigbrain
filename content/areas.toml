@@ -23,7 +23,7 @@ title = "Química"
 description = "Átomos, enlaces y reacciones: de la estructura de la materia a la estequiometría, el equilibrio ácido-base y la química orgánica."
 symbol = "pH"
 color = "#34d399"
-branches = ["Estructura de la materia", "Enlace químico", "Reacciones y estequiometría", "Estados de la materia y soluciones", "Termoquímica y cinética", "Equilibrio químico", "Química orgánica"]
+branches = ["Estructura de la materia", "Enlace químico", "Reacciones y estequiometría", "Estados de la materia y soluciones", "Termoquímica y cinética", "Equilibrio químico", "Química orgánica", "Química analítica y aplicada"]
 
 [[area]]
 slug = "electromecanica"
