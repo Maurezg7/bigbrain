@@ -147,7 +147,7 @@ La protección se basa en tres factores: menos **tiempo**, más **distancia** y 
 Protones y neutrones no son elementales: están hechos de **quarks**. El **modelo estándar** describe la materia con quarks y leptones (como el electrón y los neutrinos), y las interacciones mediante partículas mediadoras: el fotón (electromagnética), los gluones (fuerte) y los bosones W y Z (débil).
 
 > [!WARNING]
-> «Radiactivo» no equivale a «peligroso» sin más: importan el tipo de radiación, la dosis y el tiempo. La irradiación de un objeto, además, no lo vuelve radiactivo.
+> «Radiactivo» no equivale a «peligroso» sin más: importan el tipo de radiación, la dosis y el tiempo. Además, irradiar un objeto con rayos X o gamma de uso médico o industrial no lo vuelve radiactivo; sí pueden activarlo los neutrones o la radiación de muy alta energía.
 
 > [!TIP]
 > En toda reacción nuclear, verificar que se conserven la suma de los números másicos y la de los atómicos.
