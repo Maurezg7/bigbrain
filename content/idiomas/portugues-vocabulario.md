@@ -83,7 +83,7 @@ Los días hábiles se numeran: el lunes es el «segundo». En el habla se omite 
 | a semana que vem | la semana que viene |
 
 ```text
-Que horas são?        São três e meia.      Es meio-dia.
+Que horas são?        São três e meia.      É meio-dia.
 ```
 
 Meses: *janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro*.
@@ -189,7 +189,6 @@ Palabras que se parecen al español pero significan otra cosa.
 | Portugués | Significa | La palabra española se dice |
 |---|---|---|
 | **esquisito** | raro, extraño | exquisito: *delicioso* |
-| **exquisito** | (no se usa) | |
 | **embaraçada** | avergonzada, confundida | embarazada: *grávida* |
 | **polvo** | pulpo | polvo: *pó, poeira* |
 | **vaso** | maceta, florero; inodoro | vaso: *copo* |
@@ -205,7 +204,6 @@ Palabras que se parecen al español pero significan otra cosa.
 | **propina** | soborno | propina: *gorjeta* |
 | **salsa** | perejil | salsa: *molho* |
 | **pasta** | carpeta | pasta (comida): *massa, macarrão* |
-| **ano** | año | |
 | **pelado** | desnudo | pelado: *careca* |
 | **ruivo** | pelirrojo | rubio: *loiro* |
 | **todavia** | sin embargo | todavía: *ainda* |
@@ -214,7 +212,6 @@ Palabras que se parecen al español pero significan otra cosa.
 | **pegar** | agarrar, tomar | pegar: *bater; colar* |
 | **tirar** | sacar | tirar: *jogar; puxar* |
 | **contestar** | impugnar, cuestionar | contestar: *responder* |
-| **aceitar** | aceptar | aceitar (untar con aceite): *untar* |
 | **azeite** | aceite de oliva | aceite (en general): *óleo* |
 | **cadeira** | silla | cadera: *quadril* |
 | **cachorro** | perro | cachorro: *filhote* |
