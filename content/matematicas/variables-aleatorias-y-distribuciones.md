@@ -39,9 +39,9 @@ $$E(X + Y) = E(X) + E(Y)$$
 Si $X$ e $Y$ son **independientes**: $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y)$.
 
 > [!NOTE]
-> Un juego paga \$100 con probabilidad $0{,}1$ y cuesta \$15 jugar.
+> Un juego paga 100 pesos con probabilidad $0{,}1$ y cuesta 15 pesos jugar.
 >
-> $E(\text{ganancia}) = 100(0{,}1) - 15 = -5$. En promedio se pierden \$5 por jugada.
+> $E(\text{ganancia}) = 100(0{,}1) - 15 = -5$. En promedio se pierden 5 pesos por jugada.
 
 ## Distribuciones discretas
 

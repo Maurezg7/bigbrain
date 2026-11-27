@@ -7,7 +7,7 @@ title = "Matemáticas"
 description = "Del álgebra al cálculo, el álgebra lineal, las ecuaciones diferenciales y la probabilidad: el lenguaje de toda carrera científica."
 symbol = "∑"
 color = "#8b7bff"
-branches = ["Álgebra", "Geometría y trigonometría", "Cálculo", "Álgebra lineal", "Ecuaciones diferenciales", "Probabilidad y estadística", "Matemática discreta"]
+branches = ["Álgebra", "Geometría y trigonometría", "Cálculo", "Cálculo en varias variables", "Álgebra lineal", "Ecuaciones diferenciales", "Probabilidad y estadística", "Matemática discreta", "Análisis numérico y variable compleja"]
 
 [[area]]
 slug = "fisica"
