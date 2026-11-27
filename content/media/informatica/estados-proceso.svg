@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="ae6e8f0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e6e8f0"/></marker>
+<rect x="10" y="70" width="110" height="50" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="65.0" y="100.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Nuevo</text>
+<rect x="160" y="70" width="110" height="50" rx="8" stroke="#fbbf24" stroke-width="2" fill="#fbbf24" fill-opacity="0.14"/>
+<text x="215.0" y="100.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Listo</text>
+<rect x="350" y="70" width="130" height="50" rx="8" stroke="#4ade80" stroke-width="2" fill="#4ade80" fill-opacity="0.14"/>
+<text x="415.0" y="100.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">En ejecución</text>
+<rect x="520" y="70" width="110" height="50" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="575.0" y="100.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Terminado</text>
+<rect x="265" y="210" width="110" height="50" rx="8" stroke="#f472b6" stroke-width="2" fill="#f472b6" fill-opacity="0.14"/>
+<text x="320.0" y="240.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Bloqueado</text>
+<line x1="120.0" y1="95.0" x2="158.0" y2="95.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="139.0" y="62.0" fill="#9aa1b8" font-size="11" text-anchor="middle" font-weight="400">admitido</text>
+<line x1="270.0" y1="84.0" x2="348.0" y2="84.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="309.0" y="74.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">despacho</text>
+<line x1="350.0" y1="106.0" x2="272.0" y2="106.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="300.0" y="140.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">fin de quantum</text>
+<line x1="480.0" y1="95.0" x2="518.0" y2="95.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="499.0" y="62.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">fin</text>
+<path d="M440 120 Q440 235 377 235" stroke="#e6e8f0" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ae6e8f0)"/>
+<text x="452.0" y="190.0" fill="#9aa1b8" font-size="12" text-anchor="start" font-weight="400">espera E/S</text>
+<path d="M265 235 Q215 235 215 122" stroke="#e6e8f0" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ae6e8f0)"/>
+<text x="200.0" y="190.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">E/S lista</text>
+</svg>

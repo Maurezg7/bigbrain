@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="50.0" y1="300.0" x2="610.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="80.0" y1="330.0" x2="80.0" y2="30.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="606.0" y="320.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">ε</text>
+<text x="66.0" y="36.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">σ</text>
+<path d="M80 300 L170 120 C176 108 186 112 200 114 C300 118 380 40 450 50 C500 56 530 80 550 100" stroke="#8b7bff" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M80 300 H170 V120Z" stroke="#3ddbd9" stroke-width="0" fill="#3ddbd9" fill-opacity="0.12" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="140.0" y="280.0" fill="#3ddbd9" font-size="13" text-anchor="middle" font-weight="400">zona</text>
+<text x="140.0" y="295.0" fill="#3ddbd9" font-size="13" text-anchor="middle" font-weight="400">elástica</text>
+<text x="330.0" y="280.0" fill="#fb923c" font-size="13" text-anchor="middle" font-weight="400">zona plástica</text>
+<line x1="180.0" y1="300.0" x2="550.0" y2="300.0" stroke="#fb923c" stroke-width="4"/>
+<circle cx="170.0" cy="120.0" r="5" fill="#fbbf24"/>
+<text x="170.0" y="106.0" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="600">límite de fluencia σᵧ</text>
+<circle cx="446.0" cy="49.0" r="5" fill="#f472b6"/>
+<text x="446.0" y="35.0" fill="#f472b6" font-size="13" text-anchor="middle" font-weight="600">resistencia última σᵤ</text>
+<circle cx="550.0" cy="100.0" r="5" fill="#ef4444"/>
+<text x="550.0" y="126.0" fill="#ef4444" font-size="13" text-anchor="middle" font-weight="600">rotura</text>
+<text x="108.0" y="190.0" fill="#9aa1b8" font-size="12" text-anchor="start" font-weight="400">pendiente E</text>
+</svg>

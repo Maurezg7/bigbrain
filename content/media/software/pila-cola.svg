@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="af472b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#f472b6"/></marker>
+<marker id="a4ade80" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#4ade80"/></marker>
+<text x="150.0" y="30.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">Pila (LIFO)</text>
+<path d="M90 70 V290 H210 V70" stroke="#9aa1b8" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="98" y="244" width="104" height="42" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="150.0" y="270.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">A</text>
+<rect x="98" y="194" width="104" height="42" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="150.0" y="220.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">B</text>
+<rect x="98" y="144" width="104" height="42" rx="8" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.14"/>
+<text x="150.0" y="170.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">C</text>
+<path d="M40 90 Q40 150 92 164" stroke="#4ade80" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a4ade80)"/>
+<text x="40.0" y="80.0" fill="#4ade80" font-size="14" text-anchor="middle" font-weight="600">push</text>
+<path d="M208 150 Q262 140 262 92" stroke="#f472b6" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#af472b6)"/>
+<text x="262.0" y="80.0" fill="#f472b6" font-size="14" text-anchor="middle" font-weight="600">pop</text>
+<text x="150.0" y="60.0" fill="#8b7bff" font-size="12" text-anchor="middle" font-weight="400">tope</text>
+<text x="470.0" y="30.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">Cola (FIFO)</text>
+<path d="M350 130 H600" stroke="#9aa1b8" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M350 200 H600" stroke="#9aa1b8" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="372" y="139" width="64" height="52" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="404.0" y="170.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">C</text>
+<rect x="444" y="139" width="64" height="52" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="476.0" y="170.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">B</text>
+<rect x="516" y="139" width="64" height="52" rx="8" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.14"/>
+<text x="548.0" y="170.0" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">A</text>
+<line x1="310.0" y1="165.0" x2="362.0" y2="165.0" stroke="#4ade80" stroke-width="2" marker-end="url(#a4ade80)"/>
+<text x="322.0" y="150.0" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="600">entra</text>
+<line x1="592.0" y1="165.0" x2="632.0" y2="165.0" stroke="#f472b6" stroke-width="2" marker-end="url(#af472b6)"/>
+<text x="608.0" y="150.0" fill="#f472b6" font-size="13" text-anchor="middle" font-weight="600">sale</text>
+<text x="548.0" y="222.0" fill="#8b7bff" font-size="12" text-anchor="middle" font-weight="400">frente</text>
+<text x="404.0" y="222.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">final</text>
+</svg>

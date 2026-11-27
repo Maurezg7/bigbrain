@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="ae6e8f0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e6e8f0"/></marker>
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="40.0" y1="150.0" x2="610.0" y2="150.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="604.0" y="172.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">x</text>
+<path d="M50.0 150.0 L54.5 136.9 L58.9 124.1 L63.4 112.0 L67.8 101.0 L72.3 91.3 L76.8 83.1 L81.2 76.8 L85.7 72.5 L90.2 70.3 L94.6 70.2 L99.1 72.4 L103.5 76.6 L108.0 82.8 L112.5 90.8 L116.9 100.5 L121.4 111.5 L125.9 123.5 L130.3 136.2 L134.8 149.4 L139.2 162.5 L143.7 175.3 L148.2 187.4 L152.6 198.5 L157.1 208.3 L161.6 216.5 L166.0 222.9 L170.5 227.3 L174.9 229.6 L179.4 229.8 L183.9 227.8 L188.3 223.7 L192.8 217.5 L197.3 209.6 L201.7 200.0 L206.2 189.1 L210.7 177.1 L215.1 164.4 L219.6 151.3 L224.0 138.1 L228.5 125.3 L233.0 113.1 L237.4 102.0 L241.9 92.1 L246.3 83.8 L250.8 77.3 L255.3 72.8 L259.7 70.4 L264.2 70.2 L268.7 72.1 L273.1 76.1 L277.6 82.1 L282.0 90.0 L286.5 99.5 L291.0 110.4 L295.4 122.3 L299.9 135.0 L304.4 148.1 L308.8 161.3 L313.3 174.1 L317.8 186.3 L322.2 197.5 L326.7 207.5 L331.1 215.8 L335.6 222.4 L340.1 227.0 L344.5 229.5 L349.0 229.9 L353.4 228.1 L357.9 224.1 L362.4 218.2 L366.8 210.4 L371.3 201.0 L375.8 190.2 L380.2 178.3 L384.7 165.6 L389.2 152.5 L393.6 139.4 L398.1 126.5 L402.5 114.2 L407.0 103.0 L411.5 93.0 L415.9 84.5 L420.4 77.9 L424.8 73.2 L429.3 70.6 L433.8 70.1 L438.2 71.8 L442.7 75.6 L447.2 81.5 L451.6 89.2 L456.1 98.5 L460.6 109.3 L465.0 121.1 L469.5 133.8 L473.9 146.9 L478.4 160.0 L482.9 172.9 L487.3 185.2 L491.8 196.5 L496.2 206.6 L500.7 215.1 L505.2 221.8 L509.6 226.6 L514.1 229.4 L518.6 229.9 L523.0 228.3 L527.5 224.6 L532.0 218.9 L536.4 211.2 L540.9 202.0 L545.3 191.3 L549.8 179.4 L554.3 166.8 L558.7 153.8 L563.2 140.6 L567.6 127.7 L572.1 115.4 L576.6 104.0 L581.0 93.9 L585.5 85.3" stroke="#3ddbd9" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="92.5" y1="40.0" x2="262.5" y2="40.0" stroke="#fbbf24" stroke-width="2"/>
+<line x1="92.5" y1="34.0" x2="92.5" y2="70.0" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="262.5" y1="34.0" x2="262.5" y2="70.0" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="177.5" y="32.0" fill="#fbbf24" font-size="14" text-anchor="middle" font-weight="600">λ (longitud de onda)</text>
+<line x1="432.5" y1="150.0" x2="432.5" y2="72.0" stroke="#fb923c" stroke-width="2.5" marker-end="url(#afb923c)"/>
+<text x="432.5" y="56.0" fill="#fb923c" font-size="14" text-anchor="middle" font-weight="600">A (amplitud)</text>
+<text x="92.5" y="62.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="400"></text>
+<text x="266.5" y="88.0" fill="#9aa1b8" font-size="13" text-anchor="start" font-weight="400">cresta</text>
+<text x="347.5" y="250.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">valle</text>
+<line x1="509.0" y1="270.0" x2="577.0" y2="270.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="500.5" y="275.0" fill="#e6e8f0" font-size="15" text-anchor="end" font-weight="400" font-style="italic">v</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="afbbf24" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fbbf24"/></marker>
+<marker id="a3ddbd9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#3ddbd9"/></marker>
+<circle cx="360.0" cy="185.0" r="105" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.08"/>
+<circle cx="360.0" cy="185.0" r="14" stroke="#8b7bff" stroke-width="2" fill="none" fill-opacity="1"/>
+<g transform="translate(465.0 185.0) rotate(0.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(457.0 225.2) rotate(22.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(434.2 259.2) rotate(45.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(400.2 282.0) rotate(67.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(360.0 290.0) rotate(90.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(319.8 282.0) rotate(112.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(285.8 259.2) rotate(135.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(263.0 225.2) rotate(157.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(255.0 185.0) rotate(180.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(263.0 144.8) rotate(202.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(285.8 110.8) rotate(225.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(319.8 88.0) rotate(247.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(360.0 80.0) rotate(270.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(400.2 88.0) rotate(292.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(434.2 110.8) rotate(315.0)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<g transform="translate(457.0 144.8) rotate(337.5)"><path d="M0 -13 A13 13 0 0 1 0 13" stroke="#3ddbd9" stroke-width="3" fill="#3ddbd9" fill-opacity="0.25"/></g>
+<path d="M40 262 L150 276 L150 304 L40 318 Z" stroke="#fb923c" stroke-width="2.5" fill="#fb923c" fill-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="95.0" y="250.0" fill="#fb923c" font-size="14" text-anchor="middle" font-weight="400">inyector</text>
+<line x1="152.0" y1="290.0" x2="338.0" y2="290.0" stroke="#3ddbd9" stroke-width="5" marker-end="url(#a3ddbd9)"/>
+<text x="245.0" y="316.0" fill="#3ddbd9" font-size="14" text-anchor="middle" font-weight="400">chorro: c₁ = √(2gH)</text>
+<path d="M420 35 A160 160 0 0 1 510 125" stroke="#fbbf24" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#afbbf24)"/>
+<text x="510.0" y="55.0" fill="#fbbf24" font-size="14" text-anchor="middle" font-weight="400">giro</text>
+<text x="360.0" y="54.0" fill="#8b7bff" font-size="14" text-anchor="middle" font-weight="400">rodete con cucharas</text>
+<text x="560.0" y="250.0" fill="#fbbf24" font-size="16" text-anchor="middle" font-weight="600">u ≈ c₁ / 2</text>
+</svg>

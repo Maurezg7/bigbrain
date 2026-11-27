@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a3ddbd9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#3ddbd9"/></marker>
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="30.0" y1="170.0" x2="610.0" y2="170.0" stroke="#9aa1b8" stroke-width="2" marker-end="url(#a9aa1b8)"/>
+<line x1="340.0" y1="60.0" x2="340.0" y2="280.0" stroke="#e6e8f0" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="340.0" y="50.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="700">AHORA</text>
+<text x="60.0" y="196.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">pasado</text>
+<text x="590.0" y="196.0" fill="#9aa1b8" font-size="13" text-anchor="middle" font-weight="400">futuro</text>
+<circle cx="130.0" cy="170.0" r="7" fill="#f472b6"/>
+<text x="130.0" y="140.0" fill="#f472b6" font-size="14" text-anchor="middle" font-weight="600">Past simple</text>
+<text x="130.0" y="120.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400" font-style="italic">I worked yesterday</text>
+<path d="M150 230 H334" stroke="#3ddbd9" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3ddbd9)"/>
+<circle cx="150.0" cy="230.0" r="6" fill="#3ddbd9"/>
+<text x="215.0" y="255.0" fill="#3ddbd9" font-size="14" text-anchor="middle" font-weight="600">Present perfect</text>
+<text x="215.0" y="274.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400" font-style="italic">I have worked here since 2020</text>
+<path d="M306 100 Q340 78 374 100" stroke="#4ade80" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="390.0" y="96.0" fill="#4ade80" font-size="14" text-anchor="start" font-weight="600">Present continuous</text>
+<text x="390.0" y="116.0" fill="#9aa1b8" font-size="12" text-anchor="start" font-weight="400" font-style="italic">I am working now</text>
+<circle cx="520.0" cy="170.0" r="7" fill="#fbbf24"/>
+<text x="520.0" y="226.0" fill="#fbbf24" font-size="14" text-anchor="middle" font-weight="600">Future</text>
+<text x="520.0" y="245.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400" font-style="italic">I will work tomorrow</text>
+</svg>

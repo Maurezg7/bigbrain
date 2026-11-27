@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a4ade80" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#4ade80"/></marker>
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<path d="M470.0 180.0 L395.0 309.9 L245.0 309.9 L170.0 180.0 L245.0 50.1 L395.0 50.1 Z" stroke="#8b7bff" stroke-width="2.5" fill="#8b7bff" fill-opacity="0.08" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M398.0 180.0 L359.0 247.5 L281.0 247.5 L242.0 180.0 L281.0 112.5 L359.0 112.5 Z" stroke="#3ddbd9" stroke-width="2.5" fill="#3ddbd9" fill-opacity="0.18" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="320.0" y="176.0" fill="#e6e8f0" font-size="17" text-anchor="middle" font-weight="600">Dominio</text>
+<text x="320.0" y="196.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">reglas del negocio</text>
+<text x="320.0" y="76.0" fill="#8b7bff" font-size="13" text-anchor="middle" font-weight="400">casos de uso y puertos</text>
+<text x="320.0" y="296.0" fill="#8b7bff" font-size="13" text-anchor="middle" font-weight="400">aplicación</text>
+<rect x="20" y="70" width="140" height="52" rx="8" stroke="#fb923c" stroke-width="2" fill="#fb923c" fill-opacity="0.14"/>
+<text x="90.0" y="93.0" fill="#e6e8f0" font-size="13" text-anchor="middle" font-weight="600">API web</text>
+<text x="90.0" y="111.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">adaptador de entrada</text>
+<line x1="160.0" y1="96.0" x2="205.0" y2="126.0" stroke="#fb923c" stroke-width="2.5" marker-end="url(#afb923c)"/>
+<rect x="20" y="240" width="140" height="52" rx="8" stroke="#fb923c" stroke-width="2" fill="#fb923c" fill-opacity="0.14"/>
+<text x="90.0" y="263.0" fill="#e6e8f0" font-size="13" text-anchor="middle" font-weight="600">Línea de comandos</text>
+<text x="90.0" y="281.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">adaptador de entrada</text>
+<line x1="160.0" y1="266.0" x2="205.0" y2="236.0" stroke="#fb923c" stroke-width="2.5" marker-end="url(#afb923c)"/>
+<rect x="480" y="70" width="140" height="52" rx="8" stroke="#4ade80" stroke-width="2" fill="#4ade80" fill-opacity="0.14"/>
+<text x="550.0" y="93.0" fill="#e6e8f0" font-size="13" text-anchor="middle" font-weight="600">Base de datos</text>
+<text x="550.0" y="111.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">adaptador de salida</text>
+<line x1="435.0" y1="126.0" x2="480.0" y2="96.0" stroke="#4ade80" stroke-width="2.5" marker-end="url(#a4ade80)"/>
+<rect x="480" y="240" width="140" height="52" rx="8" stroke="#4ade80" stroke-width="2" fill="#4ade80" fill-opacity="0.14"/>
+<text x="550.0" y="263.0" fill="#e6e8f0" font-size="13" text-anchor="middle" font-weight="600">Correo, otras API</text>
+<text x="550.0" y="281.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">adaptador de salida</text>
+<line x1="435.0" y1="236.0" x2="480.0" y2="266.0" stroke="#4ade80" stroke-width="2.5" marker-end="url(#a4ade80)"/>
+</svg>

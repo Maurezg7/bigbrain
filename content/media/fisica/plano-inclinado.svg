@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<marker id="a3ddbd9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#3ddbd9"/></marker>
+<marker id="af472b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#f472b6"/></marker>
+<path d="M70 310 L550 310 L550 32.9Z" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.08" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M140 310 A70 70 0 0 0 130.6 275.0" stroke="#fbbf24" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="158.0" y="296.0" fill="#fbbf24" font-size="16" text-anchor="middle" font-weight="400" font-style="italic">θ</text>
+<rect x="-45" y="-28" width="90" height="56" rx="6" fill="#8b7bff" fill-opacity=".25" stroke="#8b7bff" stroke-width="2.5" transform="translate(307.1 140.8) rotate(-30)"/>
+<line x1="307.1" y1="140.8" x2="307.1" y2="260.8" stroke="#f472b6" stroke-width="3" marker-end="url(#af472b6)"/>
+<text x="317.1" y="258.8" fill="#f472b6" font-size="15" text-anchor="start" font-weight="600">P = mg</text>
+<line x1="307.1" y1="140.8" x2="254.6" y2="49.8" stroke="#3ddbd9" stroke-width="3" marker-end="url(#a3ddbd9)"/>
+<text x="242.6" y="43.8" fill="#3ddbd9" font-size="16" text-anchor="end" font-weight="600">N</text>
+<line x1="307.1" y1="140.8" x2="385.1" y2="95.8" stroke="#fb923c" stroke-width="3" marker-end="url(#afb923c)"/>
+<text x="392.8" y="86.8" fill="#fb923c" font-size="15" text-anchor="start" font-weight="600">f = μN</text>
+<line x1="307.1" y1="140.8" x2="255.2" y2="170.8" stroke="#f472b6" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#af472b6)"/>
+<text x="246.0" y="191.8" fill="#f472b6" font-size="13" text-anchor="end" font-weight="400">mg sen θ</text>
+<line x1="307.1" y1="140.8" x2="359.1" y2="230.8" stroke="#f472b6" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#af472b6)"/>
+<text x="369.1" y="234.8" fill="#f472b6" font-size="13" text-anchor="start" font-weight="400">mg cos θ</text>
+</svg>

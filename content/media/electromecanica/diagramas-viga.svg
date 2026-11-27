@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<rect x="100" y="50" width="460" height="10" rx="2" stroke="#e6e8f0" stroke-width="2" fill="#e6e8f0" fill-opacity="0.15"/>
+<line x1="253.3" y1="14.0" x2="253.3" y2="46.0" stroke="#fb923c" stroke-width="2.5" marker-end="url(#afb923c)"/>
+<text x="263.3" y="26.0" fill="#fb923c" font-size="14" text-anchor="start" font-weight="400">P</text>
+<path d="M100 60 L90 76 L110 76 Z" stroke="#9aa1b8" stroke-width="1.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M560 60 L550 76 L570 76 Z" stroke="#9aa1b8" stroke-width="1.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="80.0" y1="170.0" x2="580.0" y2="170.0" stroke="#9aa1b8" stroke-width="1.5"/>
+<path d="M100 170 L100 114 L253.33333333333334 114 L253.33333333333334 198 L560 198 L560 170 Z" stroke="#3ddbd9" stroke-width="2.5" fill="#3ddbd9" fill-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="40.0" y="130.0" fill="#3ddbd9" font-size="16" text-anchor="middle" font-weight="600">V</text>
+<text x="176.7" y="106.0" fill="#3ddbd9" font-size="13" text-anchor="middle" font-weight="400">+8 kN</text>
+<text x="406.7" y="218.0" fill="#3ddbd9" font-size="13" text-anchor="middle" font-weight="400">−4 kN</text>
+<line x1="80.0" y1="300.0" x2="580.0" y2="300.0" stroke="#9aa1b8" stroke-width="1.5"/>
+<path d="M100 300 L253.33333333333334 370 L560 300 Z" stroke="#8b7bff" stroke-width="2.5" fill="#8b7bff" fill-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="40.0" y="330.0" fill="#8b7bff" font-size="16" text-anchor="middle" font-weight="600">M</text>
+<text x="253.3" y="390.0" fill="#8b7bff" font-size="13" text-anchor="middle" font-weight="400">M máx = 16 kN·m</text>
+<line x1="253.3" y1="60.0" x2="253.3" y2="370.0" stroke="#3a4160" stroke-width="1.5" stroke-dasharray="4 4"/>
+</svg>

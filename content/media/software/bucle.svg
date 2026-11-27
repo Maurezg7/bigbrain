@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="ae6e8f0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e6e8f0"/></marker>
+<rect x="250" y="16" width="140" height="40" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="320.0" y="41.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">inicio</text>
+<line x1="320.0" y1="56.0" x2="320.0" y2="88.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<path d="M320 90 L420 140 L320 190 L220 140Z" stroke="#fbbf24" stroke-width="2.5" fill="#fbbf24" fill-opacity="0.14" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="320.0" y="145.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">¿n &gt; 0?</text>
+<line x1="320.0" y1="190.0" x2="320.0" y2="232.0" stroke="#e6e8f0" stroke-width="2" marker-end="url(#ae6e8f0)"/>
+<text x="332.0" y="216.0" fill="#4ade80" font-size="14" text-anchor="start" font-weight="600">sí</text>
+<rect x="240" y="234" width="160" height="46" rx="8" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.14"/>
+<text x="320.0" y="262.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">n = n − 3</text>
+<path d="M240 257 H130 V140 H218" stroke="#e6e8f0" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ae6e8f0)"/>
+<text x="124.0" y="200.0" fill="#9aa1b8" font-size="13" text-anchor="end" font-weight="400">repetir</text>
+<path d="M420 140 H520 V300" stroke="#e6e8f0" stroke-width="2" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ae6e8f0)"/>
+<text x="470.0" y="130.0" fill="#f472b6" font-size="14" text-anchor="middle" font-weight="600">no</text>
+<rect x="450" y="302" width="140" height="40" rx="8" stroke="#9aa1b8" stroke-width="2" fill="#9aa1b8" fill-opacity="0.14"/>
+<text x="520.0" y="327.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">fin</text>
+</svg>

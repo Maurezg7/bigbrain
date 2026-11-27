@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="afbbf24" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fbbf24"/></marker>
+<path d="M40 240 L40 70 L150 70 L150 240" stroke="#e6e8f0" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="42" y="72" width="106" height="100.5" rx="0" stroke="#3ddbd9" stroke-width="0" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="44" y="172.5" width="102" height="26" rx="3" stroke="#e6e8f0" stroke-width="2" fill="#e6e8f0" fill-opacity="0.2"/>
+<line x1="95.0" y1="198.5" x2="95.0" y2="250.0" stroke="#e6e8f0" stroke-width="3"/>
+<line x1="164.0" y1="169.5" x2="164.0" y2="201.5" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#afbbf24)"/>
+<line x1="62.0" y1="60.0" x2="82.0" y2="60.0" stroke="#3ddbd9" stroke-width="4"/>
+<line x1="108.0" y1="70.0" x2="128.0" y2="70.0" stroke="#fb923c" stroke-width="4"/>
+<text x="95.0" y="290.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">1. Admisión</text>
+<text x="95.0" y="310.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">entra mezcla</text>
+<path d="M190 240 L190 70 L300 70 L300 240" stroke="#e6e8f0" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="192" y="72" width="106" height="40.0" rx="0" stroke="#8b7bff" stroke-width="0" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="194" y="112.0" width="102" height="26" rx="3" stroke="#e6e8f0" stroke-width="2" fill="#e6e8f0" fill-opacity="0.2"/>
+<line x1="245.0" y1="138.0" x2="245.0" y2="250.0" stroke="#e6e8f0" stroke-width="3"/>
+<line x1="314.0" y1="141.0" x2="314.0" y2="109.0" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#afbbf24)"/>
+<line x1="212.0" y1="70.0" x2="232.0" y2="70.0" stroke="#3ddbd9" stroke-width="4"/>
+<line x1="258.0" y1="70.0" x2="278.0" y2="70.0" stroke="#fb923c" stroke-width="4"/>
+<text x="245.0" y="290.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">2. Compresión</text>
+<text x="245.0" y="310.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">válvulas cerradas</text>
+<path d="M340 240 L340 70 L450 70 L450 240" stroke="#e6e8f0" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="342" y="72" width="106" height="100.5" rx="0" stroke="#fb923c" stroke-width="0" fill="#fb923c" fill-opacity="0.22"/>
+<rect x="344" y="172.5" width="102" height="26" rx="3" stroke="#e6e8f0" stroke-width="2" fill="#e6e8f0" fill-opacity="0.2"/>
+<line x1="395.0" y1="198.5" x2="395.0" y2="250.0" stroke="#e6e8f0" stroke-width="3"/>
+<line x1="464.0" y1="169.5" x2="464.0" y2="201.5" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#afbbf24)"/>
+<line x1="362.0" y1="70.0" x2="382.0" y2="70.0" stroke="#3ddbd9" stroke-width="4"/>
+<line x1="408.0" y1="70.0" x2="428.0" y2="70.0" stroke="#fb923c" stroke-width="4"/>
+<text x="395.0" y="96.0" fill="#fbbf24" font-size="20" text-anchor="middle" font-weight="400">✸</text>
+<text x="395.0" y="290.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">3. Expansión</text>
+<text x="395.0" y="310.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">combustión</text>
+<path d="M490 240 L490 70 L600 70 L600 240" stroke="#e6e8f0" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="492" y="72" width="106" height="40.0" rx="0" stroke="#9aa1b8" stroke-width="0" fill="#9aa1b8" fill-opacity="0.22"/>
+<rect x="494" y="112.0" width="102" height="26" rx="3" stroke="#e6e8f0" stroke-width="2" fill="#e6e8f0" fill-opacity="0.2"/>
+<line x1="545.0" y1="138.0" x2="545.0" y2="250.0" stroke="#e6e8f0" stroke-width="3"/>
+<line x1="614.0" y1="141.0" x2="614.0" y2="109.0" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#afbbf24)"/>
+<line x1="512.0" y1="70.0" x2="532.0" y2="70.0" stroke="#3ddbd9" stroke-width="4"/>
+<line x1="558.0" y1="60.0" x2="578.0" y2="60.0" stroke="#fb923c" stroke-width="4"/>
+<text x="545.0" y="290.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">4. Escape</text>
+<text x="545.0" y="310.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">salen gases</text>
+<text x="320.0" y="36.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="600">Dos vueltas del cigüeñal por ciclo</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a3ddbd9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#3ddbd9"/></marker>
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<rect x="250" y="30" width="140" height="56" rx="8" stroke="#fb923c" stroke-width="2" fill="#fb923c" fill-opacity="0.14"/>
+<text x="320.0" y="55.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Condensador</text>
+<text x="320.0" y="73.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">cede calor al ambiente</text>
+<rect x="40" y="150" width="150" height="56" rx="8" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.14"/>
+<text x="115.0" y="175.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Compresor</text>
+<text x="115.0" y="193.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">consume trabajo</text>
+<rect x="250" y="270" width="140" height="56" rx="8" stroke="#3ddbd9" stroke-width="2" fill="#3ddbd9" fill-opacity="0.14"/>
+<text x="320.0" y="295.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Evaporador</text>
+<text x="320.0" y="313.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">absorbe calor</text>
+<rect x="450" y="150" width="150" height="56" rx="8" stroke="#fbbf24" stroke-width="2" fill="#fbbf24" fill-opacity="0.14"/>
+<text x="525.0" y="175.0" fill="#e6e8f0" font-size="14" text-anchor="middle" font-weight="600">Expansión</text>
+<text x="525.0" y="193.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">baja la presión</text>
+<path d="M115 150 L115 58 L246 58" stroke="#fb923c" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#afb923c)"/>
+<path d="M390 58 L525 58 L525 146" stroke="#fb923c" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#afb923c)"/>
+<path d="M525 206 L525 298 L394 298" stroke="#3ddbd9" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3ddbd9)"/>
+<path d="M250 298 L115 298 L115 210" stroke="#3ddbd9" stroke-width="2.5" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3ddbd9)"/>
+<text x="320.0" y="140.0" fill="#fb923c" font-size="13" text-anchor="middle" font-weight="400">alta presión</text>
+<text x="320.0" y="232.0" fill="#3ddbd9" font-size="13" text-anchor="middle" font-weight="400">baja presión</text>
+<text x="127.0" y="100.0" fill="#fb923c" font-size="13" text-anchor="start" font-weight="400">2 · vapor caliente</text>
+<text x="513.0" y="100.0" fill="#fb923c" font-size="13" text-anchor="end" font-weight="400">3 · líquido</text>
+<text x="513.0" y="256.0" fill="#3ddbd9" font-size="13" text-anchor="end" font-weight="400">4 · mezcla fría</text>
+<text x="127.0" y="256.0" fill="#3ddbd9" font-size="13" text-anchor="start" font-weight="400">1 · vapor</text>
+</svg>

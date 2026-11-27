@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="afbbf24" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fbbf24"/></marker>
+<rect x="20" y="50" width="170" height="124" rx="8" stroke="#8b7bff" stroke-width="2" fill="#161a27" fill-opacity="1"/>
+<rect x="20" y="50" width="170" height="34" rx="8" stroke="#8b7bff" stroke-width="2" fill="#8b7bff" fill-opacity="0.25"/>
+<text x="105.0" y="73.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="700">alumnos</text>
+<text x="32.0" y="106.0" fill="#fbbf24" font-size="13" text-anchor="start" font-weight="600">id</text>
+<text x="178.0" y="106.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">PK</text>
+<text x="32.0" y="136.0" fill="#e6e8f0" font-size="13" text-anchor="start" font-weight="600">nombre</text>
+<text x="178.0" y="136.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">TEXT</text>
+<text x="32.0" y="166.0" fill="#e6e8f0" font-size="13" text-anchor="start" font-weight="600">carrera</text>
+<text x="178.0" y="166.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">TEXT</text>
+<rect x="235" y="50" width="170" height="124" rx="8" stroke="#f472b6" stroke-width="2" fill="#161a27" fill-opacity="1"/>
+<rect x="235" y="50" width="170" height="34" rx="8" stroke="#f472b6" stroke-width="2" fill="#f472b6" fill-opacity="0.25"/>
+<text x="320.0" y="73.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="700">inscripciones</text>
+<text x="247.0" y="106.0" fill="#fbbf24" font-size="13" text-anchor="start" font-weight="600">alumno_id</text>
+<text x="393.0" y="106.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">FK</text>
+<text x="247.0" y="136.0" fill="#fbbf24" font-size="13" text-anchor="start" font-weight="600">materia_id</text>
+<text x="393.0" y="136.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">FK</text>
+<text x="247.0" y="166.0" fill="#e6e8f0" font-size="13" text-anchor="start" font-weight="600">nota</text>
+<text x="393.0" y="166.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">INTEGER</text>
+<rect x="450" y="50" width="170" height="94" rx="8" stroke="#3ddbd9" stroke-width="2" fill="#161a27" fill-opacity="1"/>
+<rect x="450" y="50" width="170" height="34" rx="8" stroke="#3ddbd9" stroke-width="2" fill="#3ddbd9" fill-opacity="0.25"/>
+<text x="535.0" y="73.0" fill="#e6e8f0" font-size="15" text-anchor="middle" font-weight="700">materias</text>
+<text x="462.0" y="106.0" fill="#fbbf24" font-size="13" text-anchor="start" font-weight="600">id</text>
+<text x="608.0" y="106.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">PK</text>
+<text x="462.0" y="136.0" fill="#e6e8f0" font-size="13" text-anchor="start" font-weight="600">nombre</text>
+<text x="608.0" y="136.0" fill="#9aa1b8" font-size="12" text-anchor="end" font-weight="400">TEXT</text>
+<line x1="235.0" y1="101.0" x2="192.0" y2="101.0" stroke="#fbbf24" stroke-width="2" marker-end="url(#afbbf24)"/>
+<line x1="405.0" y1="131.0" x2="450.0" y2="103.0" stroke="#fbbf24" stroke-width="2" marker-end="url(#afbbf24)"/>
+<text x="212.0" y="92.0" fill="#9aa1b8" font-size="11" text-anchor="middle" font-weight="400">N:1</text>
+<text x="428.0" y="104.0" fill="#9aa1b8" font-size="11" text-anchor="middle" font-weight="400">N:1</text>
+<text x="320.0" y="250.0" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="400">claves foráneas (FK) → claves primarias (PK)</text>
+</svg>

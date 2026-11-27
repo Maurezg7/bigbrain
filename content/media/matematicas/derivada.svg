@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a9aa1b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa1b8"/></marker>
+<line x1="40.0" y1="310.0" x2="610.0" y2="310.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<line x1="70.0" y1="335.0" x2="70.0" y2="25.0" stroke="#9aa1b8" stroke-width="1.5" marker-end="url(#a9aa1b8)"/>
+<text x="606.0" y="330.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">x</text>
+<text x="56.0" y="31.0" fill="#9aa1b8" font-size="14" text-anchor="middle" font-weight="400" font-style="italic">y</text>
+<path d="M70.0 288.0 L74.2 288.0 L78.4 287.9 L82.7 287.9 L86.9 287.7 L91.1 287.6 L95.3 287.4 L99.5 287.2 L103.7 287.0 L108.0 286.7 L112.2 286.4 L116.4 286.0 L120.6 285.7 L124.8 285.3 L129.0 284.8 L133.2 284.3 L137.5 283.8 L141.7 283.3 L145.9 282.7 L150.1 282.1 L154.3 281.5 L158.6 280.8 L162.8 280.1 L167.0 279.4 L171.2 278.6 L175.4 277.8 L179.6 277.0 L183.9 276.1 L188.1 275.2 L192.3 274.3 L196.5 273.4 L200.7 272.4 L204.9 271.3 L209.2 270.3 L213.4 269.2 L217.6 268.1 L221.8 266.9 L226.0 265.7 L230.2 264.5 L234.5 263.3 L238.7 262.0 L242.9 260.7 L247.1 259.3 L251.3 257.9 L255.5 256.5 L259.8 255.1 L264.0 253.6 L268.2 252.1 L272.4 250.5 L276.6 248.9 L280.8 247.3 L285.1 245.7 L289.3 244.0 L293.5 242.3 L297.7 240.6 L301.9 238.8 L306.1 237.0 L310.4 235.1 L314.6 233.3 L318.8 231.4 L323.0 229.4 L327.2 227.5 L331.4 225.5 L335.7 223.4 L339.9 221.4 L344.1 219.3 L348.3 217.1 L352.5 215.0 L356.7 212.8 L361.0 210.5 L365.2 208.3 L369.4 206.0 L373.6 203.7 L377.8 201.3 L382.0 198.9 L386.2 196.5 L390.5 194.0 L394.7 191.5 L398.9 189.0 L403.1 186.5 L407.3 183.9 L411.6 181.3 L415.8 178.6 L420.0 175.9 L424.2 173.2 L428.4 170.5 L432.6 167.7 L436.8 164.9 L441.1 162.0 L445.3 159.1 L449.5 156.2 L453.7 153.3 L457.9 150.3 L462.2 147.3 L466.4 144.3 L470.6 141.2 L474.8 138.1 L479.0 134.9 L483.2 131.8 L487.5 128.6 L491.7 125.3 L495.9 122.1 L500.1 118.8 L504.3 115.4 L508.5 112.0 L512.8 108.6 L517.0 105.2 L521.2 101.8 L525.4 98.3 L529.6 94.7 L533.8 91.2 L538.0 87.6 L542.3 83.9 L546.5 80.3 L550.7 76.6 L554.9 72.9 L559.1 69.1 L563.4 65.3 L567.6 61.5 L571.8 57.6 L576.0 53.7" stroke="#8b7bff" stroke-width="3" fill="none" fill-opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="104.5" y1="304.3" x2="564.5" y2="159.1" stroke="#fb923c" stroke-width="2.5"/>
+<line x1="162.0" y1="304.0" x2="553.0" y2="94.2" stroke="#3ddbd9" stroke-width="2" stroke-dasharray="7 6"/>
+<circle cx="242.5" cy="260.8" r="5" fill="#e6e8f0"/>
+<circle cx="484.0" cy="131.2" r="5" fill="#3ddbd9"/>
+<line x1="242.5" y1="260.8" x2="484.0" y2="260.8" stroke="#9aa1b8" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="484.0" y1="260.8" x2="484.0" y2="131.2" stroke="#9aa1b8" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="228.5" y="248.8" fill="#e6e8f0" font-size="16" text-anchor="middle" font-weight="600">P</text>
+<text x="363.2" y="280.8" fill="#9aa1b8" font-size="15" text-anchor="middle" font-weight="400" font-style="italic">h</text>
+<text x="494.0" y="222.0" fill="#9aa1b8" font-size="13" text-anchor="start" font-weight="400">f(x+h) − f(x)</text>
+<text x="564.5" y="181.1" fill="#fb923c" font-size="14" text-anchor="end" font-weight="400">tangente</text>
+<text x="438.0" y="118.1" fill="#3ddbd9" font-size="14" text-anchor="end" font-weight="400">secante</text>
+<text x="572.0" y="57.7" fill="#8b7bff" font-size="15" text-anchor="end" font-weight="600">f(x)</text>
+</svg>

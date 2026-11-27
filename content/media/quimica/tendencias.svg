@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif">
+<marker id="a4ade80" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#4ade80"/></marker>
+<marker id="afb923c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#fb923c"/></marker>
+<rect x="90" y="70" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="532" y="70" width="22" height="22" rx="3" stroke="#f472b6" stroke-width="1" fill="#f472b6" fill-opacity="0.22"/>
+<rect x="90" y="96" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="116" y="96" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="402" y="96" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="428" y="96" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="454" y="96" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="480" y="96" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="506" y="96" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="532" y="96" width="22" height="22" rx="3" stroke="#f472b6" stroke-width="1" fill="#f472b6" fill-opacity="0.22"/>
+<rect x="90" y="122" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="116" y="122" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="402" y="122" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="428" y="122" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="454" y="122" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="480" y="122" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="506" y="122" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="532" y="122" width="22" height="22" rx="3" stroke="#f472b6" stroke-width="1" fill="#f472b6" fill-opacity="0.22"/>
+<rect x="90" y="148" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="116" y="148" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="142" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="168" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="194" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="220" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="246" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="272" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="298" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="324" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="350" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="376" y="148" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="402" y="148" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="428" y="148" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="454" y="148" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="480" y="148" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="506" y="148" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="532" y="148" width="22" height="22" rx="3" stroke="#f472b6" stroke-width="1" fill="#f472b6" fill-opacity="0.22"/>
+<rect x="90" y="174" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="116" y="174" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="142" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="168" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="194" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="220" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="246" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="272" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="298" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="324" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="350" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="376" y="174" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="402" y="174" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="428" y="174" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="454" y="174" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="480" y="174" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="506" y="174" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="532" y="174" width="22" height="22" rx="3" stroke="#f472b6" stroke-width="1" fill="#f472b6" fill-opacity="0.22"/>
+<rect x="90" y="200" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="116" y="200" width="22" height="22" rx="3" stroke="#8b7bff" stroke-width="1" fill="#8b7bff" fill-opacity="0.22"/>
+<rect x="142" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="168" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="194" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="220" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="246" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="272" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="298" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="324" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="350" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="376" y="200" width="22" height="22" rx="3" stroke="#fbbf24" stroke-width="1" fill="#fbbf24" fill-opacity="0.22"/>
+<rect x="402" y="200" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="428" y="200" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="454" y="200" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="480" y="200" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="506" y="200" width="22" height="22" rx="3" stroke="#3ddbd9" stroke-width="1" fill="#3ddbd9" fill-opacity="0.22"/>
+<rect x="532" y="200" width="22" height="22" rx="3" stroke="#f472b6" stroke-width="1" fill="#f472b6" fill-opacity="0.22"/>
+<line x1="90.0" y1="250.0" x2="556.0" y2="250.0" stroke="#fb923c" stroke-width="3" marker-end="url(#afb923c)"/>
+<text x="323.0" y="275.0" fill="#fb923c" font-size="13" text-anchor="middle" font-weight="600">aumentan la energía de ionización y la electronegatividad →</text>
+<line x1="70.0" y1="222.0" x2="70.0" y2="72.0" stroke="#fb923c" stroke-width="3" marker-end="url(#afb923c)"/>
+<line x1="556.0" y1="40.0" x2="90.0" y2="40.0" stroke="#4ade80" stroke-width="3" marker-end="url(#a4ade80)"/>
+<text x="323.0" y="30.0" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="600">← aumenta el radio atómico</text>
+<line x1="580.0" y1="72.0" x2="580.0" y2="222.0" stroke="#4ade80" stroke-width="3" marker-end="url(#a4ade80)"/>
+<text x="323.0" y="305.0" fill="#9aa1b8" font-size="12" text-anchor="middle" font-weight="400">grupos 1–2 · metales de transición · grupos 13–17 · gases nobles</text>
+</svg>
