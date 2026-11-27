@@ -13,6 +13,18 @@ function load(): string[] {
 
 const read = new SvelteSet<string>(load());
 
+// Otra pestaña cambió el avance: se vuelve a leer para no pisar sus marcas.
+function sync() {
+	const stored = new Set(load());
+	for (const key of read) if (!stored.has(key)) read.delete(key);
+	for (const key of stored) read.add(key);
+}
+if (typeof window !== 'undefined') {
+	window.addEventListener('storage', (event) => {
+		if (event.key === KEY) sync();
+	});
+}
+
 const id = (area: string, slug: string) => `${area}/${slug}`;
 
 /** Temas marcados como leídos; se guardan solo en este navegador. */
@@ -25,6 +37,9 @@ export const progress = {
 	},
 	toggle(area: string, slug: string) {
 		const key = id(area, slug);
+		const was = read.has(key);
+		sync();
+		if (was !== read.has(key)) return;
 		if (!read.delete(key)) read.add(key);
 		try {
 			localStorage.setItem(KEY, JSON.stringify([...read]));
