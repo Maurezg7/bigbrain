@@ -28,7 +28,7 @@ Un proyectil lanzado con velocidad $v_0$ y ángulo $\theta$, despreciando el air
 | Velocidad | $v_x = v_0\cos\theta$ | $v_y = v_0\sin\theta - gt$ |
 | Posición | $x = v_0\cos\theta\,t$ | $y = y_0 + v_0\sin\theta\,t - \tfrac{1}{2}gt^2$ |
 
-Eliminando el tiempo se obtiene la trayectoria, que es una **parábola**:
+Eliminando el tiempo (con el origen en el punto de lanzamiento, $y_0 = 0$) se obtiene la trayectoria, que es una **parábola**:
 
 $$y = x\tan\theta - \frac{g}{2v_0^2\cos^2\theta}\,x^2$$
 
